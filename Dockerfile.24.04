@@ -5,7 +5,8 @@ ENV RUNNER_VERSION="2.325.0" \
     RUNNER_SHA="5020da7139d85c776059f351e0de8fdec753affc9c558e892472d43ebeb518f4"
 
 # Add a user named docker
-RUN useradd -m docker
+RUN groupadd -g 2375 docker && \
+    useradd -m -g 2375 docker
 
 # Install necessary packages
 RUN apt-get update && \
