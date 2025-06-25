@@ -1,0 +1,18 @@
+services:
+  runner:
+    image: ghcr.io/neomediatech/self-hosted-runner:latest
+    restart: always
+    environment:
+      - REPO=<owner>/<repo>
+      - REG_TOKEN=<reg-token-for-self-hosted-runner>
+      - NAME=<runner-name>
+    deploy:
+      mode: replicated
+      replicas: 4
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: 512M
+        reservations:
+          cpus: '0.4'
+          memory: 256M
