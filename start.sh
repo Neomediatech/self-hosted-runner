@@ -6,15 +6,14 @@
 #
 REPO=$REPO
 #REG_TOKEN=$REG_TOKEN
-NAME=$(hostname)
+NAME="$(hostname)-gh-runner"
 GITHUB_PAT=$GITHUB_PAT
 
 cd /home/docker/actions-runner || exit
 
 REG_TOKEN=$(curl -sX POST -H "Authorization: token $GITHUB_PAT" "https://api.github.com/orgs/$REPO/actions/runners/registration-token" | jq -r .token)
     
-./config.sh --url https://github.com/${REPO} --token ${REG_TOKEN} --name ${NAME}
-./config.sh --url "$RUNNER_URL" --token "$REG_TOKEN" --unattended --name "$(hostname)-runner" --replace
+./config.sh --url https://github.com/${REPO} --token ${REG_TOKEN} --name ${NAME} --replace
 
 cleanup() {
   echo "Removing runner..."
