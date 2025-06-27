@@ -4,7 +4,7 @@ services:
     restart: always
     environment:
       - REPO=<owner>/<repo>
-      - REG_TOKEN=<reg-token-for-self-hosted-runner>
+      - GITHUB_PAT=<git-hub-PAT,see start.sh comments>
     deploy:
       mode: replicated
       replicas: 4
