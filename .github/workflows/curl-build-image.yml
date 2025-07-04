@@ -25,7 +25,9 @@ permissions:
 jobs:
   build-image:
     uses: Neomediatech/gh-workflows/.github/workflows/build-docker-image.yml@main
-    secrets: inherit
     with:
       base-image: ghcr.io/neomediatech/ubuntu-base:24.04
       package-name: neomediatech/self-hosted-runner
+    secrets:
+      API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+      GHCR_TOKEN: ${{ secrets.GHCR_TOKEN }}
