@@ -28,6 +28,11 @@ jobs:
     with:
       base-image: ghcr.io/neomediatech/ubuntu-base:24.04
       package-name: neomediatech/self-hosted-runner
+      #derived-image-prefix: ghcr.io/neomediatech/cron
     secrets:
-      API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+      NOTIFY_CMD: ${{ secrets.NOTIFY_CMD }}
+      NOTIFY_UP: ${{ secrets.NOTIFY_UP }}
+      NOTIFY_ENDPOINT: ${{ secrets.NOTIFY_ENDPOINT }}
+      NOTIFY_OPTIONS: ${{ secrets.NOTIFY_OPTIONS }}
       GHCR_TOKEN: ${{ secrets.GHCR_TOKEN }}
+      API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
