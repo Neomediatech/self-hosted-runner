@@ -1,4 +1,4 @@
-FROM neomediatech/ubuntu-base:24.04
+FROM ghcr.io/neomediatech/ubuntu-base:24.04
 
 ENV RUNNER_VERSION="2.325.0" \
     DEBIAN_FRONTEND=noninteractive \
