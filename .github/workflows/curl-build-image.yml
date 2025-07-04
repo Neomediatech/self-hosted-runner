@@ -17,6 +17,12 @@ on:
   repository_dispatch: # Per inviare richieste di compilazione immagini via curl
     types: [build-image] # ascolta eventi chiamati 'build-image'
   workflow_dispatch:
+  workflow_call:
+    secrets:
+      API_TOKEN_GITHUB:
+        required: true
+      GHCR_TOKEN:
+        required: true
 
 permissions:
   contents: write
