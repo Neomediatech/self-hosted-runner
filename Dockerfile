@@ -33,10 +33,12 @@ RUN install -m 0755 -d /etc/apt/keyrings && \
     apt-get update && \
     apt-get -y install docker-ce-cli docker-buildx-plugin docker-compose-plugin && \
     apt-get clean && \
-    rm -rf /var/lib/apt/lists/*
+    rm -rf /var/lib/apt/lists/* && \
+    chown -R docker /home/docker
 
-# Change ownership to docker user and install dependencies
-RUN chown -R docker /home/docker && /home/docker/actions-runner/bin/installdependencies.sh
+# install dependencies
+RUN sed -i 's|#!/bin/bash|#!/bin/bash\nset -x|' /home/docker/actions-runner/bin/installdependencies.sh && \
+    /home/docker/actions-runner/bin/installdependencies.sh
 
 # Copy the start script and make it executable
 COPY start.sh /start.sh
