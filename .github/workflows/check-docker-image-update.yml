@@ -30,8 +30,8 @@ jobs:
       derived-image-prefix: ghcr.io/neomediatech/self-hosted-runner
       force-build: "${{ github.event.inputs.force-build }}"
       update-image: "true"
-      image-type: "generic"
-      #package-to-check: ""
+      image-type: "github"
+      package-to-check: "actions/runner"
     secrets:
       NOTIFY_CMD: ${{ secrets.NOTIFY_CMD }}
       NOTIFY_UP: ${{ secrets.NOTIFY_UP }}
