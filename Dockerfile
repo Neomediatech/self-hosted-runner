@@ -1,8 +1,7 @@
 FROM ghcr.io/neomediatech/ubuntu-base:24.04
 
-ENV RUNNER_VERSION="2.325.0" \
-    DEBIAN_FRONTEND=noninteractive \
-    RUNNER_SHA="5020da7139d85c776059f351e0de8fdec753affc9c558e892472d43ebeb518f4"
+ENV RUNNER_VERSION="2.327.0" \
+    DEBIAN_FRONTEND=noninteractive
 
 # Add a user named docker
 RUN groupadd -g 2375 docker && \
