@@ -1,0 +1,1 @@
+ven 25 lug 2025, 12:13:59, UTC --- ghcr.io/neomediatech/self-hosted-runner:latest UPDATED
