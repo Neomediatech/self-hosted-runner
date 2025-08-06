@@ -1,16 +1,19 @@
 FROM ghcr.io/neomediatech/ubuntu-base:24.04
 
 ENV RUNNER_VERSION="2.327.0" \
-    DEBIAN_FRONTEND=noninteractive
+    DEBIAN_FRONTEND=noninteractive \
+    TZ=Europe/Rome
 
 # Add a user named docker
 RUN groupadd -g 2375 docker && \
     useradd -m -g 2375 docker
 
+RUN echo $TZ > /etc/timezone
+
 # Install necessary packages
 RUN apt-get update && \
     apt-get install -y --no-install-recommends curl ca-certificates libicu-dev ssh \
-      skopeo jq git gh && \
+      skopeo jq git gh tzdata && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
