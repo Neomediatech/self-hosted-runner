@@ -1,1 +1,0 @@
-mar 5 ago 2025, 16:11:18, UTC --- ghcr.io/neomediatech/self-hosted-runner:latest UPDATED (image build needed: true)
