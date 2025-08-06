@@ -1,0 +1,1396 @@
+mer 6 ago 2025, 18:13:48, UTC --- ghcr.io/neomediatech/self-hosted-runner:latest
+
+Report Summary
+
+┌──────────────────────────────────────────────────────────────────────────────────┬─────────────┬─────────────────┬─────────┬───────────────────┐
+│                                      Target                                      │    Type     │ Vulnerabilities │ Secrets │ Misconfigurations │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ ghcr.io/neomediatech/self-hosted-runner:latest (ubuntu 24.04)                    │   ubuntu    │        0        │    -    │         -         │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/corepack/package.j- │  node-pkg   │        0        │    -    │         -         │
+│ son                                                                              │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/@- │  node-pkg   │        0        │    -    │         -         │
+│ isaacs/cliui/node_modules/ansi-regex/package.json                                │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/@- │  node-pkg   │        0        │    -    │         -         │
+│ isaacs/cliui/node_modules/emoji-regex/package.json                               │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/@- │  node-pkg   │        0        │    -    │         -         │
+│ isaacs/cliui/node_modules/string-width/package.json                              │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/@- │  node-pkg   │        0        │    -    │         -         │
+│ isaacs/cliui/node_modules/strip-ansi/package.json                                │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/@- │  node-pkg   │        0        │    -    │         -         │
+│ isaacs/cliui/package.json                                                        │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/@- │  node-pkg   │        0        │    -    │         -         │
+│ isaacs/string-locale-compare/package.json                                        │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/@- │  node-pkg   │        0        │    -    │         -         │
+│ npmcli/agent/package.json                                                        │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/@- │  node-pkg   │        0        │    -    │         -         │
+│ npmcli/arborist/package.json                                                     │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/@- │  node-pkg   │        0        │    -    │         -         │
+│ npmcli/config/package.json                                                       │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/@- │  node-pkg   │        0        │    -    │         -         │
+│ npmcli/fs/package.json                                                           │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/@- │  node-pkg   │        0        │    -    │         -         │
+│ npmcli/git/package.json                                                          │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/@- │  node-pkg   │        0        │    -    │         -         │
+│ npmcli/installed-package-contents/package.json                                   │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/@- │  node-pkg   │        0        │    -    │         -         │
+│ npmcli/map-workspaces/package.json                                               │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/@- │  node-pkg   │        0        │    -    │         -         │
+│ npmcli/metavuln-calculator/package.json                                          │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/@- │  node-pkg   │        0        │    -    │         -         │
+│ npmcli/name-from-folder/package.json                                             │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/@- │  node-pkg   │        0        │    -    │         -         │
+│ npmcli/node-gyp/package.json                                                     │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/@- │  node-pkg   │        0        │    -    │         -         │
+│ npmcli/package-json/package.json                                                 │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/@- │  node-pkg   │        0        │    -    │         -         │
+│ npmcli/promise-spawn/package.json                                                │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/@- │  node-pkg   │        0        │    -    │         -         │
+│ npmcli/query/package.json                                                        │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/@- │  node-pkg   │        0        │    -    │         -         │
+│ npmcli/redact/package.json                                                       │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/@- │  node-pkg   │        0        │    -    │         -         │
+│ npmcli/run-script/package.json                                                   │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/@- │  node-pkg   │        0        │    -    │         -         │
+│ pkgjs/parseargs/package.json                                                     │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/@- │  node-pkg   │        0        │    -    │         -         │
+│ sigstore/bundle/package.json                                                     │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/@- │  node-pkg   │        0        │    -    │         -         │
+│ sigstore/core/package.json                                                       │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/@- │  node-pkg   │        0        │    -    │         -         │
+│ sigstore/protobuf-specs/package.json                                             │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/@- │  node-pkg   │        0        │    -    │         -         │
+│ sigstore/sign/package.json                                                       │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/@- │  node-pkg   │        0        │    -    │         -         │
+│ sigstore/tuf/package.json                                                        │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/@- │  node-pkg   │        0        │    -    │         -         │
+│ sigstore/verify/package.json                                                     │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/@- │  node-pkg   │        0        │    -    │         -         │
+│ tufjs/canonical-json/package.json                                                │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/@- │  node-pkg   │        0        │    -    │         -         │
+│ tufjs/models/package.json                                                        │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/a- │  node-pkg   │        0        │    -    │         -         │
+│ bbrev/package.json                                                               │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/a- │  node-pkg   │        0        │    -    │         -         │
+│ gent-base/package.json                                                           │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/a- │  node-pkg   │        0        │    -    │         -         │
+│ ggregate-error/package.json                                                      │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/a- │  node-pkg   │        0        │    -    │         -         │
+│ nsi-regex/package.json                                                           │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/a- │  node-pkg   │        0        │    -    │         -         │
+│ nsi-styles/package.json                                                          │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/a- │  node-pkg   │        0        │    -    │         -         │
+│ proba/package.json                                                               │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/a- │  node-pkg   │        0        │    -    │         -         │
+│ rchy/package.json                                                                │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/b- │  node-pkg   │        0        │    -    │         -         │
+│ alanced-match/package.json                                                       │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/b- │  node-pkg   │        0        │    -    │         -         │
+│ in-links/package.json                                                            │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/b- │  node-pkg   │        0        │    -    │         -         │
+│ inary-extensions/package.json                                                    │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/b- │  node-pkg   │        0        │    -    │         -         │
+│ race-expansion/package.json                                                      │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/c- │  node-pkg   │        0        │    -    │         -         │
+│ acache/package.json                                                              │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/c- │  node-pkg   │        0        │    -    │         -         │
+│ halk/package.json                                                                │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/c- │  node-pkg   │        0        │    -    │         -         │
+│ hownr/package.json                                                               │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/c- │  node-pkg   │        0        │    -    │         -         │
+│ i-info/package.json                                                              │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/c- │  node-pkg   │        0        │    -    │         -         │
+│ idr-regex/package.json                                                           │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/c- │  node-pkg   │        0        │    -    │         -         │
+│ lean-stack/package.json                                                          │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/c- │  node-pkg   │        0        │    -    │         -         │
+│ li-columns/package.json                                                          │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/c- │  node-pkg   │        0        │    -    │         -         │
+│ md-shim/package.json                                                             │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/c- │  node-pkg   │        0        │    -    │         -         │
+│ olor-convert/package.json                                                        │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/c- │  node-pkg   │        0        │    -    │         -         │
+│ olor-name/package.json                                                           │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/c- │  node-pkg   │        0        │    -    │         -         │
+│ ommon-ancestor-path/package.json                                                 │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/c- │  node-pkg   │        0        │    -    │         -         │
+│ ross-spawn/node_modules/which/package.json                                       │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/c- │  node-pkg   │        1        │    -    │         -         │
+│ ross-spawn/package.json                                                          │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/c- │  node-pkg   │        0        │    -    │         -         │
+│ ssesc/package.json                                                               │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/d- │  node-pkg   │        0        │    -    │         -         │
+│ ebug/node_modules/ms/package.json                                                │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/d- │  node-pkg   │        0        │    -    │         -         │
+│ ebug/package.json                                                                │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/d- │  node-pkg   │        0        │    -    │         -         │
+│ iff/package.json                                                                 │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/e- │  node-pkg   │        0        │    -    │         -         │
+│ astasianwidth/package.json                                                       │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/e- │  node-pkg   │        0        │    -    │         -         │
+│ moji-regex/package.json                                                          │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/e- │  node-pkg   │        0        │    -    │         -         │
+│ ncoding/package.json                                                             │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/e- │  node-pkg   │        0        │    -    │         -         │
+│ nv-paths/package.json                                                            │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/e- │  node-pkg   │        0        │    -    │         -         │
+│ rr-code/package.json                                                             │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/e- │  node-pkg   │        0        │    -    │         -         │
+│ xponential-backoff/package.json                                                  │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/f- │  node-pkg   │        0        │    -    │         -         │
+│ astest-levenshtein/package.json                                                  │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/f- │  node-pkg   │        0        │    -    │         -         │
+│ oreground-child/package.json                                                     │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/f- │  node-pkg   │        0        │    -    │         -         │
+│ s-minipass/package.json                                                          │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/g- │  node-pkg   │        0        │    -    │         -         │
+│ lob/package.json                                                                 │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/g- │  node-pkg   │        0        │    -    │         -         │
+│ raceful-fs/package.json                                                          │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/h- │  node-pkg   │        0        │    -    │         -         │
+│ osted-git-info/package.json                                                      │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/h- │  node-pkg   │        0        │    -    │         -         │
+│ ttp-cache-semantics/package.json                                                 │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/h- │  node-pkg   │        0        │    -    │         -         │
+│ ttp-proxy-agent/package.json                                                     │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/h- │  node-pkg   │        0        │    -    │         -         │
+│ ttps-proxy-agent/package.json                                                    │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/i- │  node-pkg   │        0        │    -    │         -         │
+│ conv-lite/package.json                                                           │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/i- │  node-pkg   │        0        │    -    │         -         │
+│ gnore-walk/package.json                                                          │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/i- │  node-pkg   │        0        │    -    │         -         │
+│ murmurhash/package.json                                                          │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/i- │  node-pkg   │        0        │    -    │         -         │
+│ ndent-string/package.json                                                        │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/i- │  node-pkg   │        0        │    -    │         -         │
+│ ni/package.json                                                                  │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/i- │  node-pkg   │        0        │    -    │         -         │
+│ nit-package-json/package.json                                                    │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/i- │  node-pkg   │        0        │    -    │         -         │
+│ p-address/package.json                                                           │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/i- │  node-pkg   │        0        │    -    │         -         │
+│ p-regex/package.json                                                             │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/i- │  node-pkg   │        0        │    -    │         -         │
+│ s-cidr/package.json                                                              │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/i- │  node-pkg   │        0        │    -    │         -         │
+│ s-fullwidth-code-point/package.json                                              │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/i- │  node-pkg   │        0        │    -    │         -         │
+│ s-lambda/package.json                                                            │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/i- │  node-pkg   │        0        │    -    │         -         │
+│ sexe/package.json                                                                │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/j- │  node-pkg   │        0        │    -    │         -         │
+│ ackspeak/package.json                                                            │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/j- │  node-pkg   │        0        │    -    │         -         │
+│ sbn/package.json                                                                 │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/j- │  node-pkg   │        0        │    -    │         -         │
+│ son-parse-even-better-errors/package.json                                        │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/j- │  node-pkg   │        0        │    -    │         -         │
+│ son-stringify-nice/package.json                                                  │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/j- │  node-pkg   │        0        │    -    │         -         │
+│ sonparse/package.json                                                            │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/j- │  node-pkg   │        0        │    -    │         -         │
+│ ust-diff-apply/package.json                                                      │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/j- │  node-pkg   │        0        │    -    │         -         │
+│ ust-diff/package.json                                                            │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/l- │  node-pkg   │        0        │    -    │         -         │
+│ ibnpmaccess/package.json                                                         │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/l- │  node-pkg   │        0        │    -    │         -         │
+│ ibnpmdiff/package.json                                                           │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/l- │  node-pkg   │        0        │    -    │         -         │
+│ ibnpmexec/package.json                                                           │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/l- │  node-pkg   │        0        │    -    │         -         │
+│ ibnpmfund/package.json                                                           │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/l- │  node-pkg   │        0        │    -    │         -         │
+│ ibnpmhook/package.json                                                           │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/l- │  node-pkg   │        0        │    -    │         -         │
+│ ibnpmorg/package.json                                                            │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/l- │  node-pkg   │        0        │    -    │         -         │
+│ ibnpmpack/package.json                                                           │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/l- │  node-pkg   │        0        │    -    │         -         │
+│ ibnpmpublish/package.json                                                        │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/l- │  node-pkg   │        0        │    -    │         -         │
+│ ibnpmsearch/package.json                                                         │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/l- │  node-pkg   │        0        │    -    │         -         │
+│ ibnpmteam/package.json                                                           │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/l- │  node-pkg   │        0        │    -    │         -         │
+│ ibnpmversion/package.json                                                        │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/l- │  node-pkg   │        0        │    -    │         -         │
+│ ru-cache/package.json                                                            │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/m- │  node-pkg   │        0        │    -    │         -         │
+│ ake-fetch-happen/package.json                                                    │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/m- │  node-pkg   │        0        │    -    │         -         │
+│ inimatch/package.json                                                            │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/m- │  node-pkg   │        0        │    -    │         -         │
+│ inipass-collect/package.json                                                     │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/m- │  node-pkg   │        0        │    -    │         -         │
+│ inipass-fetch/package.json                                                       │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/m- │  node-pkg   │        0        │    -    │         -         │
+│ inipass-flush/node_modules/minipass/package.json                                 │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/m- │  node-pkg   │        0        │    -    │         -         │
+│ inipass-flush/package.json                                                       │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/m- │  node-pkg   │        0        │    -    │         -         │
+│ inipass-pipeline/node_modules/minipass/package.json                              │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/m- │  node-pkg   │        0        │    -    │         -         │
+│ inipass-pipeline/package.json                                                    │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/m- │  node-pkg   │        0        │    -    │         -         │
+│ inipass-sized/node_modules/minipass/package.json                                 │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/m- │  node-pkg   │        0        │    -    │         -         │
+│ inipass-sized/package.json                                                       │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/m- │  node-pkg   │        0        │    -    │         -         │
+│ inipass/package.json                                                             │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/m- │  node-pkg   │        0        │    -    │         -         │
+│ inizlib/node_modules/minipass/package.json                                       │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/m- │  node-pkg   │        0        │    -    │         -         │
+│ inizlib/package.json                                                             │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/m- │  node-pkg   │        0        │    -    │         -         │
+│ kdirp/package.json                                                               │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/m- │  node-pkg   │        0        │    -    │         -         │
+│ s/package.json                                                                   │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/m- │  node-pkg   │        0        │    -    │         -         │
+│ ute-stream/package.json                                                          │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/n- │  node-pkg   │        0        │    -    │         -         │
+│ egotiator/package.json                                                           │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/n- │  node-pkg   │        0        │    -    │         -         │
+│ ode-gyp/node_modules/proc-log/package.json                                       │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/n- │  node-pkg   │        0        │    -    │         -         │
+│ ode-gyp/package.json                                                             │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/n- │  node-pkg   │        0        │    -    │         -         │
+│ opt/package.json                                                                 │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/n- │  node-pkg   │        0        │    -    │         -         │
+│ ormalize-package-data/package.json                                               │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/n- │  node-pkg   │        0        │    -    │         -         │
+│ pm-audit-report/package.json                                                     │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/n- │  node-pkg   │        0        │    -    │         -         │
+│ pm-bundled/package.json                                                          │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/n- │  node-pkg   │        0        │    -    │         -         │
+│ pm-install-checks/package.json                                                   │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/n- │  node-pkg   │        0        │    -    │         -         │
+│ pm-normalize-package-bin/package.json                                            │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/n- │  node-pkg   │        0        │    -    │         -         │
+│ pm-package-arg/package.json                                                      │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/n- │  node-pkg   │        0        │    -    │         -         │
+│ pm-packlist/package.json                                                         │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/n- │  node-pkg   │        0        │    -    │         -         │
+│ pm-pick-manifest/package.json                                                    │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/n- │  node-pkg   │        0        │    -    │         -         │
+│ pm-profile/package.json                                                          │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/n- │  node-pkg   │        0        │    -    │         -         │
+│ pm-registry-fetch/package.json                                                   │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/n- │  node-pkg   │        0        │    -    │         -         │
+│ pm-user-validate/package.json                                                    │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/p- │  node-pkg   │        0        │    -    │         -         │
+│ -map/package.json                                                                │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/p- │  node-pkg   │        0        │    -    │         -         │
+│ ackage-json-from-dist/package.json                                               │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/p- │  node-pkg   │        0        │    -    │         -         │
+│ acote/package.json                                                               │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/p- │  node-pkg   │        0        │    -    │         -         │
+│ arse-conflict-json/package.json                                                  │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/p- │  node-pkg   │        0        │    -    │         -         │
+│ ath-key/package.json                                                             │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/p- │  node-pkg   │        0        │    -    │         -         │
+│ ath-scurry/package.json                                                          │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/p- │  node-pkg   │        0        │    -    │         -         │
+│ ostcss-selector-parser/package.json                                              │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/p- │  node-pkg   │        0        │    -    │         -         │
+│ roc-log/package.json                                                             │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/p- │  node-pkg   │        0        │    -    │         -         │
+│ roggy/package.json                                                               │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/p- │  node-pkg   │        0        │    -    │         -         │
+│ romise-all-reject-late/package.json                                              │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/p- │  node-pkg   │        0        │    -    │         -         │
+│ romise-call-limit/package.json                                                   │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/p- │  node-pkg   │        0        │    -    │         -         │
+│ romise-inflight/package.json                                                     │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/p- │  node-pkg   │        0        │    -    │         -         │
+│ romise-retry/package.json                                                        │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/p- │  node-pkg   │        0        │    -    │         -         │
+│ romzard/package.json                                                             │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/q- │  node-pkg   │        0        │    -    │         -         │
+│ rcode-terminal/package.json                                                      │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/r- │  node-pkg   │        0        │    -    │         -         │
+│ ead-cmd-shim/package.json                                                        │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/r- │  node-pkg   │        0        │    -    │         -         │
+│ ead-package-json-fast/package.json                                               │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/r- │  node-pkg   │        0        │    -    │         -         │
+│ ead/package.json                                                                 │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/r- │  node-pkg   │        0        │    -    │         -         │
+│ etry/package.json                                                                │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/s- │  node-pkg   │        0        │    -    │         -         │
+│ afer-buffer/package.json                                                         │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/s- │  node-pkg   │        0        │    -    │         -         │
+│ emver/package.json                                                               │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/s- │  node-pkg   │        0        │    -    │         -         │
+│ hebang-command/package.json                                                      │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/s- │  node-pkg   │        0        │    -    │         -         │
+│ hebang-regex/package.json                                                        │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/s- │  node-pkg   │        0        │    -    │         -         │
+│ ignal-exit/package.json                                                          │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/s- │  node-pkg   │        0        │    -    │         -         │
+│ igstore/package.json                                                             │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/s- │  node-pkg   │        0        │    -    │         -         │
+│ mart-buffer/package.json                                                         │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/s- │  node-pkg   │        0        │    -    │         -         │
+│ ocks-proxy-agent/package.json                                                    │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/s- │  node-pkg   │        0        │    -    │         -         │
+│ ocks/package.json                                                                │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/s- │  node-pkg   │        0        │    -    │         -         │
+│ pdx-correct/node_modules/spdx-expression-parse/package.json                      │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/s- │  node-pkg   │        0        │    -    │         -         │
+│ pdx-correct/package.json                                                         │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/s- │  node-pkg   │        0        │    -    │         -         │
+│ pdx-exceptions/package.json                                                      │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/s- │  node-pkg   │        0        │    -    │         -         │
+│ pdx-expression-parse/package.json                                                │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/s- │  node-pkg   │        0        │    -    │         -         │
+│ pdx-license-ids/package.json                                                     │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/s- │  node-pkg   │        0        │    -    │         -         │
+│ printf-js/package.json                                                           │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/s- │  node-pkg   │        0        │    -    │         -         │
+│ sri/package.json                                                                 │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/s- │  node-pkg   │        0        │    -    │         -         │
+│ tring-width-cjs/package.json                                                     │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/s- │  node-pkg   │        0        │    -    │         -         │
+│ tring-width/package.json                                                         │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/s- │  node-pkg   │        0        │    -    │         -         │
+│ trip-ansi-cjs/package.json                                                       │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/s- │  node-pkg   │        0        │    -    │         -         │
+│ trip-ansi/package.json                                                           │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/s- │  node-pkg   │        0        │    -    │         -         │
+│ upports-color/package.json                                                       │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/t- │  node-pkg   │        0        │    -    │         -         │
+│ ar/node_modules/fs-minipass/node_modules/minipass/package.json                   │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/t- │  node-pkg   │        0        │    -    │         -         │
+│ ar/node_modules/fs-minipass/package.json                                         │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/t- │  node-pkg   │        0        │    -    │         -         │
+│ ar/node_modules/minipass/package.json                                            │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/t- │  node-pkg   │        0        │    -    │         -         │
+│ ar/package.json                                                                  │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/t- │  node-pkg   │        0        │    -    │         -         │
+│ ext-table/package.json                                                           │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/t- │  node-pkg   │        0        │    -    │         -         │
+│ iny-relative-date/package.json                                                   │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/t- │  node-pkg   │        0        │    -    │         -         │
+│ reeverse/package.json                                                            │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/t- │  node-pkg   │        0        │    -    │         -         │
+│ uf-js/package.json                                                               │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/u- │  node-pkg   │        0        │    -    │         -         │
+│ nique-filename/package.json                                                      │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/u- │  node-pkg   │        0        │    -    │         -         │
+│ nique-slug/package.json                                                          │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/u- │  node-pkg   │        0        │    -    │         -         │
+│ til-deprecate/package.json                                                       │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/v- │  node-pkg   │        0        │    -    │         -         │
+│ alidate-npm-package-license/node_modules/spdx-expression-parse/package.json      │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/v- │  node-pkg   │        0        │    -    │         -         │
+│ alidate-npm-package-license/package.json                                         │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/v- │  node-pkg   │        0        │    -    │         -         │
+│ alidate-npm-package-name/package.json                                            │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/w- │  node-pkg   │        0        │    -    │         -         │
+│ alk-up-path/package.json                                                         │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/w- │  node-pkg   │        0        │    -    │         -         │
+│ hich/node_modules/isexe/package.json                                             │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/w- │  node-pkg   │        0        │    -    │         -         │
+│ hich/package.json                                                                │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/w- │  node-pkg   │        0        │    -    │         -         │
+│ rap-ansi-cjs/node_modules/ansi-styles/package.json                               │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/w- │  node-pkg   │        0        │    -    │         -         │
+│ rap-ansi-cjs/package.json                                                        │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/w- │  node-pkg   │        0        │    -    │         -         │
+│ rap-ansi/node_modules/ansi-regex/package.json                                    │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/w- │  node-pkg   │        0        │    -    │         -         │
+│ rap-ansi/node_modules/emoji-regex/package.json                                   │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/w- │  node-pkg   │        0        │    -    │         -         │
+│ rap-ansi/node_modules/string-width/package.json                                  │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/w- │  node-pkg   │        0        │    -    │         -         │
+│ rap-ansi/node_modules/strip-ansi/package.json                                    │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/w- │  node-pkg   │        0        │    -    │         -         │
+│ rap-ansi/package.json                                                            │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/w- │  node-pkg   │        0        │    -    │         -         │
+│ rite-file-atomic/package.json                                                    │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/node_modules/y- │  node-pkg   │        0        │    -    │         -         │
+│ allist/package.json                                                              │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node20/lib/node_modules/npm/package.json    │  node-pkg   │        0        │    -    │         -         │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/corepack/package.j- │  node-pkg   │        0        │    -    │         -         │
+│ son                                                                              │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/@- │  node-pkg   │        0        │    -    │         -         │
+│ isaacs/cliui/node_modules/ansi-regex/package.json                                │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/@- │  node-pkg   │        0        │    -    │         -         │
+│ isaacs/cliui/node_modules/emoji-regex/package.json                               │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/@- │  node-pkg   │        0        │    -    │         -         │
+│ isaacs/cliui/node_modules/string-width/package.json                              │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/@- │  node-pkg   │        0        │    -    │         -         │
+│ isaacs/cliui/node_modules/strip-ansi/package.json                                │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/@- │  node-pkg   │        0        │    -    │         -         │
+│ isaacs/cliui/package.json                                                        │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/@- │  node-pkg   │        0        │    -    │         -         │
+│ isaacs/fs-minipass/package.json                                                  │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/@- │  node-pkg   │        0        │    -    │         -         │
+│ isaacs/string-locale-compare/package.json                                        │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/@- │  node-pkg   │        0        │    -    │         -         │
+│ npmcli/agent/package.json                                                        │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/@- │  node-pkg   │        0        │    -    │         -         │
+│ npmcli/arborist/package.json                                                     │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/@- │  node-pkg   │        0        │    -    │         -         │
+│ npmcli/config/package.json                                                       │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/@- │  node-pkg   │        0        │    -    │         -         │
+│ npmcli/fs/package.json                                                           │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/@- │  node-pkg   │        0        │    -    │         -         │
+│ npmcli/git/package.json                                                          │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/@- │  node-pkg   │        0        │    -    │         -         │
+│ npmcli/installed-package-contents/package.json                                   │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/@- │  node-pkg   │        0        │    -    │         -         │
+│ npmcli/map-workspaces/package.json                                               │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/@- │  node-pkg   │        0        │    -    │         -         │
+│ npmcli/metavuln-calculator/package.json                                          │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/@- │  node-pkg   │        0        │    -    │         -         │
+│ npmcli/name-from-folder/package.json                                             │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/@- │  node-pkg   │        0        │    -    │         -         │
+│ npmcli/node-gyp/package.json                                                     │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/@- │  node-pkg   │        0        │    -    │         -         │
+│ npmcli/package-json/package.json                                                 │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/@- │  node-pkg   │        0        │    -    │         -         │
+│ npmcli/promise-spawn/package.json                                                │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/@- │  node-pkg   │        0        │    -    │         -         │
+│ npmcli/query/package.json                                                        │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/@- │  node-pkg   │        0        │    -    │         -         │
+│ npmcli/redact/package.json                                                       │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/@- │  node-pkg   │        0        │    -    │         -         │
+│ npmcli/run-script/package.json                                                   │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/@- │  node-pkg   │        0        │    -    │         -         │
+│ pkgjs/parseargs/package.json                                                     │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/@- │  node-pkg   │        0        │    -    │         -         │
+│ sigstore/bundle/package.json                                                     │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/@- │  node-pkg   │        0        │    -    │         -         │
+│ sigstore/core/package.json                                                       │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/@- │  node-pkg   │        0        │    -    │         -         │
+│ sigstore/protobuf-specs/package.json                                             │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/@- │  node-pkg   │        0        │    -    │         -         │
+│ sigstore/sign/package.json                                                       │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/@- │  node-pkg   │        0        │    -    │         -         │
+│ sigstore/tuf/package.json                                                        │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/@- │  node-pkg   │        0        │    -    │         -         │
+│ sigstore/verify/package.json                                                     │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/@- │  node-pkg   │        0        │    -    │         -         │
+│ tufjs/canonical-json/package.json                                                │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/@- │  node-pkg   │        0        │    -    │         -         │
+│ tufjs/models/package.json                                                        │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/a- │  node-pkg   │        0        │    -    │         -         │
+│ bbrev/package.json                                                               │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/a- │  node-pkg   │        0        │    -    │         -         │
+│ gent-base/package.json                                                           │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/a- │  node-pkg   │        0        │    -    │         -         │
+│ nsi-regex/package.json                                                           │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/a- │  node-pkg   │        0        │    -    │         -         │
+│ nsi-styles/package.json                                                          │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/a- │  node-pkg   │        0        │    -    │         -         │
+│ proba/package.json                                                               │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/a- │  node-pkg   │        0        │    -    │         -         │
+│ rchy/package.json                                                                │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/b- │  node-pkg   │        0        │    -    │         -         │
+│ alanced-match/package.json                                                       │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/b- │  node-pkg   │        0        │    -    │         -         │
+│ in-links/package.json                                                            │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/b- │  node-pkg   │        0        │    -    │         -         │
+│ inary-extensions/package.json                                                    │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/b- │  node-pkg   │        0        │    -    │         -         │
+│ race-expansion/package.json                                                      │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/c- │  node-pkg   │        0        │    -    │         -         │
+│ acache/node_modules/chownr/package.json                                          │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/c- │  node-pkg   │        0        │    -    │         -         │
+│ acache/node_modules/minizlib/package.json                                        │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/c- │  node-pkg   │        0        │    -    │         -         │
+│ acache/node_modules/mkdirp/dist/cjs/package.json                                 │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/c- │  node-pkg   │        0        │    -    │         -         │
+│ acache/node_modules/mkdirp/package.json                                          │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/c- │  node-pkg   │        0        │    -    │         -         │
+│ acache/node_modules/tar/package.json                                             │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/c- │  node-pkg   │        0        │    -    │         -         │
+│ acache/node_modules/yallist/package.json                                         │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/c- │  node-pkg   │        0        │    -    │         -         │
+│ acache/package.json                                                              │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/c- │  node-pkg   │        0        │    -    │         -         │
+│ halk/package.json                                                                │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/c- │  node-pkg   │        0        │    -    │         -         │
+│ hownr/package.json                                                               │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/c- │  node-pkg   │        0        │    -    │         -         │
+│ i-info/package.json                                                              │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/c- │  node-pkg   │        0        │    -    │         -         │
+│ idr-regex/package.json                                                           │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/c- │  node-pkg   │        0        │    -    │         -         │
+│ li-columns/package.json                                                          │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/c- │  node-pkg   │        0        │    -    │         -         │
+│ md-shim/package.json                                                             │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/c- │  node-pkg   │        0        │    -    │         -         │
+│ olor-convert/package.json                                                        │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/c- │  node-pkg   │        0        │    -    │         -         │
+│ olor-name/package.json                                                           │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/c- │  node-pkg   │        0        │    -    │         -         │
+│ ommon-ancestor-path/package.json                                                 │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/c- │  node-pkg   │        0        │    -    │         -         │
+│ ross-spawn/node_modules/which/package.json                                       │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/c- │  node-pkg   │        0        │    -    │         -         │
+│ ross-spawn/package.json                                                          │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/c- │  node-pkg   │        0        │    -    │         -         │
+│ ssesc/package.json                                                               │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/d- │  node-pkg   │        0        │    -    │         -         │
+│ ebug/package.json                                                                │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/d- │  node-pkg   │        0        │    -    │         -         │
+│ iff/package.json                                                                 │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/e- │  node-pkg   │        0        │    -    │         -         │
+│ astasianwidth/package.json                                                       │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/e- │  node-pkg   │        0        │    -    │         -         │
+│ moji-regex/package.json                                                          │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/e- │  node-pkg   │        0        │    -    │         -         │
+│ ncoding/package.json                                                             │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/e- │  node-pkg   │        0        │    -    │         -         │
+│ nv-paths/package.json                                                            │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/e- │  node-pkg   │        0        │    -    │         -         │
+│ rr-code/package.json                                                             │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/e- │  node-pkg   │        0        │    -    │         -         │
+│ xponential-backoff/package.json                                                  │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/f- │  node-pkg   │        0        │    -    │         -         │
+│ astest-levenshtein/package.json                                                  │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/f- │  node-pkg   │        0        │    -    │         -         │
+│ oreground-child/package.json                                                     │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/f- │  node-pkg   │        0        │    -    │         -         │
+│ s-minipass/package.json                                                          │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/g- │  node-pkg   │        0        │    -    │         -         │
+│ lob/package.json                                                                 │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/g- │  node-pkg   │        0        │    -    │         -         │
+│ raceful-fs/package.json                                                          │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/h- │  node-pkg   │        0        │    -    │         -         │
+│ osted-git-info/package.json                                                      │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/h- │  node-pkg   │        0        │    -    │         -         │
+│ ttp-cache-semantics/package.json                                                 │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/h- │  node-pkg   │        0        │    -    │         -         │
+│ ttp-proxy-agent/package.json                                                     │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/h- │  node-pkg   │        0        │    -    │         -         │
+│ ttps-proxy-agent/package.json                                                    │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/i- │  node-pkg   │        0        │    -    │         -         │
+│ conv-lite/package.json                                                           │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/i- │  node-pkg   │        0        │    -    │         -         │
+│ gnore-walk/package.json                                                          │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/i- │  node-pkg   │        0        │    -    │         -         │
+│ murmurhash/package.json                                                          │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/i- │  node-pkg   │        0        │    -    │         -         │
+│ ni/package.json                                                                  │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/i- │  node-pkg   │        0        │    -    │         -         │
+│ nit-package-json/package.json                                                    │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/i- │  node-pkg   │        0        │    -    │         -         │
+│ p-address/package.json                                                           │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/i- │  node-pkg   │        0        │    -    │         -         │
+│ p-regex/package.json                                                             │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/i- │  node-pkg   │        0        │    -    │         -         │
+│ s-cidr/package.json                                                              │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/i- │  node-pkg   │        0        │    -    │         -         │
+│ s-fullwidth-code-point/package.json                                              │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/i- │  node-pkg   │        0        │    -    │         -         │
+│ sexe/package.json                                                                │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/j- │  node-pkg   │        0        │    -    │         -         │
+│ ackspeak/package.json                                                            │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/j- │  node-pkg   │        0        │    -    │         -         │
+│ sbn/package.json                                                                 │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/j- │  node-pkg   │        0        │    -    │         -         │
+│ son-parse-even-better-errors/package.json                                        │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/j- │  node-pkg   │        0        │    -    │         -         │
+│ son-stringify-nice/package.json                                                  │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/j- │  node-pkg   │        0        │    -    │         -         │
+│ sonparse/package.json                                                            │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/j- │  node-pkg   │        0        │    -    │         -         │
+│ ust-diff-apply/package.json                                                      │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/j- │  node-pkg   │        0        │    -    │         -         │
+│ ust-diff/package.json                                                            │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/l- │  node-pkg   │        0        │    -    │         -         │
+│ ibnpmaccess/package.json                                                         │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/l- │  node-pkg   │        0        │    -    │         -         │
+│ ibnpmdiff/package.json                                                           │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/l- │  node-pkg   │        0        │    -    │         -         │
+│ ibnpmexec/package.json                                                           │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/l- │  node-pkg   │        0        │    -    │         -         │
+│ ibnpmfund/package.json                                                           │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/l- │  node-pkg   │        0        │    -    │         -         │
+│ ibnpmorg/package.json                                                            │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/l- │  node-pkg   │        0        │    -    │         -         │
+│ ibnpmpack/package.json                                                           │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/l- │  node-pkg   │        0        │    -    │         -         │
+│ ibnpmpublish/package.json                                                        │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/l- │  node-pkg   │        0        │    -    │         -         │
+│ ibnpmsearch/package.json                                                         │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/l- │  node-pkg   │        0        │    -    │         -         │
+│ ibnpmteam/package.json                                                           │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/l- │  node-pkg   │        0        │    -    │         -         │
+│ ibnpmversion/package.json                                                        │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/l- │  node-pkg   │        0        │    -    │         -         │
+│ ru-cache/package.json                                                            │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/m- │  node-pkg   │        0        │    -    │         -         │
+│ ake-fetch-happen/node_modules/negotiator/package.json                            │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/m- │  node-pkg   │        0        │    -    │         -         │
+│ ake-fetch-happen/package.json                                                    │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/m- │  node-pkg   │        0        │    -    │         -         │
+│ inimatch/package.json                                                            │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/m- │  node-pkg   │        0        │    -    │         -         │
+│ inipass-collect/package.json                                                     │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/m- │  node-pkg   │        0        │    -    │         -         │
+│ inipass-fetch/node_modules/minizlib/package.json                                 │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/m- │  node-pkg   │        0        │    -    │         -         │
+│ inipass-fetch/package.json                                                       │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/m- │  node-pkg   │        0        │    -    │         -         │
+│ inipass-flush/node_modules/minipass/package.json                                 │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/m- │  node-pkg   │        0        │    -    │         -         │
+│ inipass-flush/package.json                                                       │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/m- │  node-pkg   │        0        │    -    │         -         │
+│ inipass-pipeline/node_modules/minipass/package.json                              │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/m- │  node-pkg   │        0        │    -    │         -         │
+│ inipass-pipeline/package.json                                                    │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/m- │  node-pkg   │        0        │    -    │         -         │
+│ inipass-sized/node_modules/minipass/package.json                                 │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/m- │  node-pkg   │        0        │    -    │         -         │
+│ inipass-sized/package.json                                                       │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/m- │  node-pkg   │        0        │    -    │         -         │
+│ inipass/package.json                                                             │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/m- │  node-pkg   │        0        │    -    │         -         │
+│ inizlib/node_modules/minipass/package.json                                       │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/m- │  node-pkg   │        0        │    -    │         -         │
+│ inizlib/package.json                                                             │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/m- │  node-pkg   │        0        │    -    │         -         │
+│ kdirp/package.json                                                               │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/m- │  node-pkg   │        0        │    -    │         -         │
+│ s/package.json                                                                   │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/m- │  node-pkg   │        0        │    -    │         -         │
+│ ute-stream/package.json                                                          │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/n- │  node-pkg   │        0        │    -    │         -         │
+│ ode-gyp/node_modules/chownr/package.json                                         │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/n- │  node-pkg   │        0        │    -    │         -         │
+│ ode-gyp/node_modules/minizlib/package.json                                       │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/n- │  node-pkg   │        0        │    -    │         -         │
+│ ode-gyp/node_modules/mkdirp/dist/cjs/package.json                                │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/n- │  node-pkg   │        0        │    -    │         -         │
+│ ode-gyp/node_modules/mkdirp/package.json                                         │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/n- │  node-pkg   │        0        │    -    │         -         │
+│ ode-gyp/node_modules/tar/package.json                                            │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/n- │  node-pkg   │        0        │    -    │         -         │
+│ ode-gyp/node_modules/yallist/package.json                                        │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/n- │  node-pkg   │        0        │    -    │         -         │
+│ ode-gyp/package.json                                                             │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/n- │  node-pkg   │        0        │    -    │         -         │
+│ opt/package.json                                                                 │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/n- │  node-pkg   │        0        │    -    │         -         │
+│ ormalize-package-data/package.json                                               │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/n- │  node-pkg   │        0        │    -    │         -         │
+│ pm-audit-report/package.json                                                     │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/n- │  node-pkg   │        0        │    -    │         -         │
+│ pm-bundled/package.json                                                          │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/n- │  node-pkg   │        0        │    -    │         -         │
+│ pm-install-checks/package.json                                                   │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/n- │  node-pkg   │        0        │    -    │         -         │
+│ pm-normalize-package-bin/package.json                                            │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/n- │  node-pkg   │        0        │    -    │         -         │
+│ pm-package-arg/package.json                                                      │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/n- │  node-pkg   │        0        │    -    │         -         │
+│ pm-packlist/package.json                                                         │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/n- │  node-pkg   │        0        │    -    │         -         │
+│ pm-pick-manifest/package.json                                                    │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/n- │  node-pkg   │        0        │    -    │         -         │
+│ pm-profile/package.json                                                          │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/n- │  node-pkg   │        0        │    -    │         -         │
+│ pm-registry-fetch/node_modules/minizlib/package.json                             │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/n- │  node-pkg   │        0        │    -    │         -         │
+│ pm-registry-fetch/package.json                                                   │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/n- │  node-pkg   │        0        │    -    │         -         │
+│ pm-user-validate/package.json                                                    │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/p- │  node-pkg   │        0        │    -    │         -         │
+│ -map/package.json                                                                │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/p- │  node-pkg   │        0        │    -    │         -         │
+│ ackage-json-from-dist/package.json                                               │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/p- │  node-pkg   │        0        │    -    │         -         │
+│ acote/package.json                                                               │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/p- │  node-pkg   │        0        │    -    │         -         │
+│ arse-conflict-json/package.json                                                  │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/p- │  node-pkg   │        0        │    -    │         -         │
+│ ath-key/package.json                                                             │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/p- │  node-pkg   │        0        │    -    │         -         │
+│ ath-scurry/package.json                                                          │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/p- │  node-pkg   │        0        │    -    │         -         │
+│ ostcss-selector-parser/package.json                                              │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/p- │  node-pkg   │        0        │    -    │         -         │
+│ roc-log/package.json                                                             │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/p- │  node-pkg   │        0        │    -    │         -         │
+│ roggy/package.json                                                               │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/p- │  node-pkg   │        0        │    -    │         -         │
+│ romise-all-reject-late/package.json                                              │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/p- │  node-pkg   │        0        │    -    │         -         │
+│ romise-call-limit/package.json                                                   │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/p- │  node-pkg   │        0        │    -    │         -         │
+│ romise-retry/package.json                                                        │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/p- │  node-pkg   │        0        │    -    │         -         │
+│ romzard/package.json                                                             │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/q- │  node-pkg   │        0        │    -    │         -         │
+│ rcode-terminal/package.json                                                      │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/r- │  node-pkg   │        0        │    -    │         -         │
+│ ead-cmd-shim/package.json                                                        │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/r- │  node-pkg   │        0        │    -    │         -         │
+│ ead-package-json-fast/package.json                                               │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/r- │  node-pkg   │        0        │    -    │         -         │
+│ ead/package.json                                                                 │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/r- │  node-pkg   │        0        │    -    │         -         │
+│ etry/package.json                                                                │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/s- │  node-pkg   │        0        │    -    │         -         │
+│ afer-buffer/package.json                                                         │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/s- │  node-pkg   │        0        │    -    │         -         │
+│ emver/package.json                                                               │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/s- │  node-pkg   │        0        │    -    │         -         │
+│ hebang-command/package.json                                                      │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/s- │  node-pkg   │        0        │    -    │         -         │
+│ hebang-regex/package.json                                                        │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/s- │  node-pkg   │        0        │    -    │         -         │
+│ ignal-exit/package.json                                                          │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/s- │  node-pkg   │        0        │    -    │         -         │
+│ igstore/package.json                                                             │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/s- │  node-pkg   │        0        │    -    │         -         │
+│ mart-buffer/package.json                                                         │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/s- │  node-pkg   │        0        │    -    │         -         │
+│ ocks-proxy-agent/package.json                                                    │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/s- │  node-pkg   │        0        │    -    │         -         │
+│ ocks/package.json                                                                │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/s- │  node-pkg   │        0        │    -    │         -         │
+│ pdx-correct/node_modules/spdx-expression-parse/package.json                      │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/s- │  node-pkg   │        0        │    -    │         -         │
+│ pdx-correct/package.json                                                         │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/s- │  node-pkg   │        0        │    -    │         -         │
+│ pdx-exceptions/package.json                                                      │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/s- │  node-pkg   │        0        │    -    │         -         │
+│ pdx-expression-parse/package.json                                                │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/s- │  node-pkg   │        0        │    -    │         -         │
+│ pdx-license-ids/package.json                                                     │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/s- │  node-pkg   │        0        │    -    │         -         │
+│ printf-js/package.json                                                           │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/s- │  node-pkg   │        0        │    -    │         -         │
+│ sri/package.json                                                                 │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/s- │  node-pkg   │        0        │    -    │         -         │
+│ tring-width-cjs/package.json                                                     │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/s- │  node-pkg   │        0        │    -    │         -         │
+│ tring-width/package.json                                                         │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/s- │  node-pkg   │        0        │    -    │         -         │
+│ trip-ansi-cjs/package.json                                                       │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/s- │  node-pkg   │        0        │    -    │         -         │
+│ trip-ansi/package.json                                                           │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/s- │  node-pkg   │        0        │    -    │         -         │
+│ upports-color/package.json                                                       │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/t- │  node-pkg   │        0        │    -    │         -         │
+│ ar/node_modules/fs-minipass/node_modules/minipass/package.json                   │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/t- │  node-pkg   │        0        │    -    │         -         │
+│ ar/node_modules/fs-minipass/package.json                                         │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/t- │  node-pkg   │        0        │    -    │         -         │
+│ ar/node_modules/minipass/package.json                                            │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/t- │  node-pkg   │        0        │    -    │         -         │
+│ ar/package.json                                                                  │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/t- │  node-pkg   │        0        │    -    │         -         │
+│ ext-table/package.json                                                           │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/t- │  node-pkg   │        0        │    -    │         -         │
+│ iny-relative-date/package.json                                                   │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/t- │  node-pkg   │        0        │    -    │         -         │
+│ inyglobby/node_modules/fdir/package.json                                         │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/t- │  node-pkg   │        0        │    -    │         -         │
+│ inyglobby/node_modules/picomatch/package.json                                    │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/t- │  node-pkg   │        0        │    -    │         -         │
+│ inyglobby/package.json                                                           │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/t- │  node-pkg   │        0        │    -    │         -         │
+│ reeverse/package.json                                                            │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/t- │  node-pkg   │        0        │    -    │         -         │
+│ uf-js/package.json                                                               │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/u- │  node-pkg   │        0        │    -    │         -         │
+│ nique-filename/package.json                                                      │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/u- │  node-pkg   │        0        │    -    │         -         │
+│ nique-slug/package.json                                                          │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/u- │  node-pkg   │        0        │    -    │         -         │
+│ til-deprecate/package.json                                                       │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/v- │  node-pkg   │        0        │    -    │         -         │
+│ alidate-npm-package-license/node_modules/spdx-expression-parse/package.json      │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/v- │  node-pkg   │        0        │    -    │         -         │
+│ alidate-npm-package-license/package.json                                         │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/v- │  node-pkg   │        0        │    -    │         -         │
+│ alidate-npm-package-name/package.json                                            │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/w- │  node-pkg   │        0        │    -    │         -         │
+│ alk-up-path/package.json                                                         │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/w- │  node-pkg   │        0        │    -    │         -         │
+│ hich/node_modules/isexe/package.json                                             │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/w- │  node-pkg   │        0        │    -    │         -         │
+│ hich/package.json                                                                │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/w- │  node-pkg   │        0        │    -    │         -         │
+│ rap-ansi-cjs/node_modules/ansi-styles/package.json                               │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/w- │  node-pkg   │        0        │    -    │         -         │
+│ rap-ansi-cjs/package.json                                                        │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/w- │  node-pkg   │        0        │    -    │         -         │
+│ rap-ansi/node_modules/ansi-regex/package.json                                    │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/w- │  node-pkg   │        0        │    -    │         -         │
+│ rap-ansi/node_modules/emoji-regex/package.json                                   │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/w- │  node-pkg   │        0        │    -    │         -         │
+│ rap-ansi/node_modules/string-width/package.json                                  │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/w- │  node-pkg   │        0        │    -    │         -         │
+│ rap-ansi/node_modules/strip-ansi/package.json                                    │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/w- │  node-pkg   │        0        │    -    │         -         │
+│ rap-ansi/package.json                                                            │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/w- │  node-pkg   │        0        │    -    │         -         │
+│ rite-file-atomic/package.json                                                    │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/y- │  node-pkg   │        0        │    -    │         -         │
+│ allist/package.json                                                              │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/package.json    │  node-pkg   │        0        │    -    │         -         │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/bin/Runner.Common.deps.json                           │ dotnet-core │        0        │    -    │         -         │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/bin/Runner.Listener.deps.json                         │ dotnet-core │        0        │    -    │         -         │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/bin/Runner.PluginHost.deps.json                       │ dotnet-core │        0        │    -    │         -         │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/bin/Runner.Plugins.deps.json                          │ dotnet-core │        0        │    -    │         -         │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/bin/Runner.Sdk.deps.json                              │ dotnet-core │        0        │    -    │         -         │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/bin/Runner.Worker.deps.json                           │ dotnet-core │        0        │    -    │         -         │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/bin/Sdk.deps.json                                     │ dotnet-core │        0        │    -    │         -         │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ /etc/ssh/ssh_host_ecdsa_key                                                      │    text     │        -        │    1    │         -         │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ /etc/ssh/ssh_host_ed25519_key                                                    │    text     │        -        │    1    │         -         │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ /etc/ssh/ssh_host_rsa_key                                                        │    text     │        -        │    1    │         -         │
+└──────────────────────────────────────────────────────────────────────────────────┴─────────────┴─────────────────┴─────────┴───────────────────┘
+Legend:
+- '-': Not scanned
+- '0': Clean (no security findings detected)
+
+
+For OSS Maintainers: VEX Notice
+--------------------------------
+If you're an OSS maintainer and Trivy has detected vulnerabilities in your project that you believe are not actually exploitable, consider issuing a VEX (Vulnerability Exploitability eXchange) statement.
+VEX allows you to communicate the actual status of vulnerabilities in your project, improving security transparency and reducing false positives for your users.
+Learn more and start using VEX: https://trivy.dev/v0.65/docs/supply-chain/vex/repo#publishing-vex-documents
+
+To disable this notice, set the TRIVY_DISABLE_VEX_NOTICE environment variable.
+
+
+Node.js (node-pkg)
+==================
+Total: 1 (HIGH: 1, CRITICAL: 0)
+
+┌────────────────────────────┬────────────────┬──────────┬────────┬───────────────────┬───────────────┬───────────────────────────────────────────────────┐
+│          Library           │ Vulnerability  │ Severity │ Status │ Installed Version │ Fixed Version │                       Title                       │
+├────────────────────────────┼────────────────┼──────────┼────────┼───────────────────┼───────────────┼───────────────────────────────────────────────────┤
+│ cross-spawn (package.json) │ CVE-2024-21538 │ HIGH     │ fixed  │ 7.0.3             │ 7.0.5, 6.0.6  │ cross-spawn: regular expression denial of service │
+│                            │                │          │        │                   │               │ https://avd.aquasec.com/nvd/cve-2024-21538        │
+└────────────────────────────┴────────────────┴──────────┴────────┴───────────────────┴───────────────┴───────────────────────────────────────────────────┘
+
+/etc/ssh/ssh_host_ecdsa_key (secrets)
+=====================================
+Total: 1 (HIGH: 1, CRITICAL: 0)
+
+HIGH: AsymmetricPrivateKey (private-key)
+════════════════════════════════════════
+Asymmetric Private Key
+────────────────────────────────────────
+ /etc/ssh/ssh_host_ecdsa_key:2-8 (added by 'RUN /bin/sh -c apt-get update &&     apt')
+────────────────────────────────────────
+   1   -----BEGIN OPENSSH PRIVATE KEY-----
+   2 ┌ **********************************************************************
+   3 │ **********************************************************************
+   4 │ **********************************************************************
+   5 │ **********************************************************************
+   6 │ **********************************************************************
+   7 │ **********************************************************************
+   8 └ ****************
+   9   -----END OPENSSH PRIVATE KEY-----
+────────────────────────────────────────
+
+
+
+/etc/ssh/ssh_host_ed25519_key (secrets)
+=======================================
+Total: 1 (HIGH: 1, CRITICAL: 0)
+
+HIGH: AsymmetricPrivateKey (private-key)
+════════════════════════════════════════
+Asymmetric Private Key
+────────────────────────────────────────
+ /etc/ssh/ssh_host_ed25519_key:2-6 (added by 'RUN /bin/sh -c apt-get update &&     apt')
+────────────────────────────────────────
+   1   -----BEGIN OPENSSH PRIVATE KEY-----
+   2 ┌ **********************************************************************
+   3 │ **********************************************************************
+   4 │ **********************************************************************
+   5 │ **********************************************************************
+   6 └ ********************************************************
+   7   -----END OPENSSH PRIVATE KEY-----
+────────────────────────────────────────
+
+
+
+/etc/ssh/ssh_host_rsa_key (secrets)
+===================================
+Total: 1 (HIGH: 1, CRITICAL: 0)
+
+HIGH: AsymmetricPrivateKey (private-key)
+════════════════════════════════════════
+Asymmetric Private Key
+────────────────────────────────────────
+ /etc/ssh/ssh_host_rsa_key:2-37 (added by 'RUN /bin/sh -c apt-get update &&     apt')
+────────────────────────────────────────
+   1   -----BEGIN OPENSSH PRIVATE KEY-----
+   2 ┌ **********************************************************************
+   3 │ **********************************************************************
+   4 │ **********************************************************************
+   5 │ **********************************************************************
+   6 │ **********************************************************************
+   7 │ **********************************************************************
+   8 │ **********************************************************************
+   9 │ **********************************************************************
+  10 │ **********************************************************************
+  11 │ **********************************************************************
+  12 │ **********************************************************************
+  13 │ **********************************************************************
+  14 │ **********************************************************************
+  15 │ **********************************************************************
+  16 │ **********************************************************************
+  17 │ **********************************************************************
+  18 │ **********************************************************************
+  19 │ **********************************************************************
+  20 │ **********************************************************************
+  21 │ **********************************************************************
+  22 │ **********************************************************************
+  23 │ **********************************************************************
+  24 │ **********************************************************************
+  25 │ **********************************************************************
+  26 │ **********************************************************************
+  27 │ **********************************************************************
+  28 │ **********************************************************************
+  29 │ **********************************************************************
+  30 │ **********************************************************************
+  31 │ **********************************************************************
+  32 │ **********************************************************************
+  33 │ **********************************************************************
+  34 │ **********************************************************************
+  35 │ **********************************************************************
+  36 │ **********************************************************************
+  37 └ ******************************************************
+  38   -----END OPENSSH PRIVATE KEY-----
+────────────────────────────────────────
+
+
+-------------------------------------------------------
