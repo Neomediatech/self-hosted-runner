@@ -18,7 +18,7 @@ RUN apt-get update && \
     rm -rf /var/lib/apt/lists/*
 
 # Set up the actions runner
-RUN APP_URL="https://api.github.com/repos/actions/runner/releases"
+RUN APP_URL="https://api.github.com/repos/actions/runner/releases" && \
     if [ "$APP_VERSION" = "latest" ]; then \
 	TAG=""; \
     else \
