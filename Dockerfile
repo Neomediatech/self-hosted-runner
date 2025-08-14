@@ -28,12 +28,13 @@ RUN APP_URL="https://api.github.com/repos/actions/runner/releases" && \
     echo "TAG=$TAG" && \
     echo "APP_VERSION=$APP_VERSION" && \
     REPO_VERSION="$(basename $(curl -s $APP_URL/${TAG}${APP_VERSION} | jq -r '.tag_name'))" && \
-    echo "REPO_VERSION=$APP_VERSION" && \
-	echo "repo download: https://github.com/actions/runner/releases/download/${REPO_VERSION}/actions-runner-linux-x64-${REPO_VERSION}.tar.gz" && \
+    echo "REPO_VERSION=$REPO_VERSION" && \
+	FILE_NAME="actions-runner-linux-x64-${VER#v}.tar.gz"
+	echo "repo download: https://github.com/actions/runner/releases/download/${REPO_VERSION}/$FILE_NAME" && \
     cd /home/docker && mkdir actions-runner && cd actions-runner && \
-    curl -o actions-runner-linux-x64-${REPO_VERSION}.tar.gz -L https://github.com/actions/runner/releases/download/${REPO_VERSION}/actions-runner-linux-x64-${REPO_VERSION}.tar.gz && \
-    tar xzf actions-runner-linux-x64-${REPO_VERSION}.tar.gz && \
-    rm -f actions-runner-linux-x64-${REPO_VERSION}.tar.gz
+    curl -o $FILE_NAME -L https://github.com/actions/runner/releases/download/${REPO_VERSION}/$FILE_NAME && \
+    tar xzf $FILE_NAME && \
+    rm -f $FILE_NAME
 
 # Install Docker
 RUN apt-get remove docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc || ok=true
