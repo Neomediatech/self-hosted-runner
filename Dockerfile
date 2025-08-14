@@ -1,8 +1,9 @@
 FROM ghcr.io/neomediatech/ubuntu-base:24.04
 
-ENV APP_VERSION=latest \
-    DEBIAN_FRONTEND=noninteractive \
+ENV DEBIAN_FRONTEND=noninteractive \
     TZ=Europe/Rome
+
+ARG APP_VERSION=latest
 
 # Add a user named docker
 RUN groupadd -g 2375 docker && \
@@ -26,12 +27,12 @@ RUN APP_URL="https://api.github.com/repos/actions/runner/releases" && \
     fi && \
     echo "TAG=$TAG" && \
     echo "APP_VERSION=$APP_VERSION" && \
-    APP_VERSION="$(basename $(curl -s $APP_URL/${TAG}${APP_VERSION} | jq -r '.tag_name'))" && \
-    echo "APP_VERSION=$APP_VERSION" && \
+    REPO_VERSION="$(basename $(curl -s $APP_URL/${TAG}${APP_VERSION} | jq -r '.tag_name'))" && \
+    echo "REPO_VERSION=$APP_VERSION" && \
     cd /home/docker && mkdir actions-runner && cd actions-runner && \
-    curl -o actions-runner-linux-x64-${APP_VERSION}.tar.gz -L https://github.com/actions/runner/releases/download/${APP_VERSION}/actions-runner-linux-x64-${APP_VERSION}.tar.gz && \
-    tar xzf actions-runner-linux-x64-${APP_VERSION}.tar.gz && \
-    rm -f actions-runner-linux-x64-${APP_VERSION}.tar.gz
+    curl -o actions-runner-linux-x64-${REPO_VERSION}.tar.gz -L https://github.com/actions/runner/releases/download/${REPO_VERSION}/actions-runner-linux-x64-${REPO_VERSION}.tar.gz && \
+    tar xzf actions-runner-linux-x64-${REPO_VERSION}.tar.gz && \
+    rm -f actions-runner-linux-x64-${REPO_VERSION}.tar.gz
 
 # Install Docker
 RUN apt-get remove docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc || ok=true
