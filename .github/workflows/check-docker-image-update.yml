@@ -25,9 +25,6 @@ jobs:
     uses: Neomediatech/gh-workflows/.github/workflows/build-docker-image-bulk.yml@main
     #uses: Neomediatech/gh-workflows/.github/workflows/check-and-build-docker-images.yml@main
     with:
-      base-image: ghcr.io/neomediatech/ubuntu-base:24.04
-      package-name: neomediatech/self-hosted-runner
-      derived-image-prefix: ghcr.io/neomediatech/self-hosted-runner
       force-build: "${{ github.event.inputs.force-build }}"
       update-image: "true"
       image-type: "github"
