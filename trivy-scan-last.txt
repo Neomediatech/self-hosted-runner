@@ -1,4 +1,4 @@
-gio 14 ago 2025, 10:23:53, UTC --- ghcr.io/neomediatech/self-hosted-runner:latest
+gio 14 ago 2025, 13:05:13, UTC --- ghcr.io/neomediatech/self-hosted-runner:latest
 
 Report Summary
 
@@ -1306,7 +1306,7 @@ HIGH: AsymmetricPrivateKey (private-key)
 ════════════════════════════════════════
 Asymmetric Private Key
 ────────────────────────────────────────
- /etc/ssh/ssh_host_ecdsa_key:2-8 (added by 'RUN /bin/sh -c apt-get update &&     apt')
+ /etc/ssh/ssh_host_ecdsa_key:2-8 (added by 'RUN |1 APP_VERSION=latest /bin/sh -c apt')
 ────────────────────────────────────────
    1   -----BEGIN OPENSSH PRIVATE KEY-----
    2 ┌ **********************************************************************
@@ -1329,7 +1329,7 @@ HIGH: AsymmetricPrivateKey (private-key)
 ════════════════════════════════════════
 Asymmetric Private Key
 ────────────────────────────────────────
- /etc/ssh/ssh_host_ed25519_key:2-6 (added by 'RUN /bin/sh -c apt-get update &&     apt')
+ /etc/ssh/ssh_host_ed25519_key:2-6 (added by 'RUN |1 APP_VERSION=latest /bin/sh -c apt')
 ────────────────────────────────────────
    1   -----BEGIN OPENSSH PRIVATE KEY-----
    2 ┌ **********************************************************************
@@ -1350,7 +1350,7 @@ HIGH: AsymmetricPrivateKey (private-key)
 ════════════════════════════════════════
 Asymmetric Private Key
 ────────────────────────────────────────
- /etc/ssh/ssh_host_rsa_key:2-37 (added by 'RUN /bin/sh -c apt-get update &&     apt')
+ /etc/ssh/ssh_host_rsa_key:2-37 (added by 'RUN |1 APP_VERSION=latest /bin/sh -c apt')
 ────────────────────────────────────────
    1   -----BEGIN OPENSSH PRIVATE KEY-----
    2 ┌ **********************************************************************
