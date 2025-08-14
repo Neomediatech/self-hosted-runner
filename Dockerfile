@@ -13,7 +13,7 @@ RUN echo $TZ > /etc/timezone
 
 # Install necessary packages
 RUN apt-get update && \
-    apt-get install -y --no-install-recommends curl ca-certificates libicu-dev ssh \
+    apt-get install -y --no-install-recommends libicu-dev ssh \
       skopeo jq git gh tzdata && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
@@ -29,6 +29,7 @@ RUN APP_URL="https://api.github.com/repos/actions/runner/releases" && \
     echo "APP_VERSION=$APP_VERSION" && \
     REPO_VERSION="$(basename $(curl -s $APP_URL/${TAG}${APP_VERSION} | jq -r '.tag_name'))" && \
     echo "REPO_VERSION=$APP_VERSION" && \
+	echo "repo download: https://github.com/actions/runner/releases/download/${REPO_VERSION}/actions-runner-linux-x64-${REPO_VERSION}.tar.gz" && \
     cd /home/docker && mkdir actions-runner && cd actions-runner && \
     curl -o actions-runner-linux-x64-${REPO_VERSION}.tar.gz -L https://github.com/actions/runner/releases/download/${REPO_VERSION}/actions-runner-linux-x64-${REPO_VERSION}.tar.gz && \
     tar xzf actions-runner-linux-x64-${REPO_VERSION}.tar.gz && \
