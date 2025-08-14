@@ -1,4 +1,4 @@
-gio 14 ago 2025, 13:29:48, UTC --- ghcr.io/neomediatech/self-hosted-runner:latest
+gio 14 ago 2025, 14:12:03, UTC --- ghcr.io/neomediatech/self-hosted-runner:latest
 
 Report Summary
 
