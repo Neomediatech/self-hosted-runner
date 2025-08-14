@@ -29,7 +29,7 @@ RUN APP_URL="https://api.github.com/repos/actions/runner/releases" && \
     echo "APP_VERSION=$APP_VERSION" && \
     REPO_VERSION="$(basename $(curl -s $APP_URL/${TAG}${APP_VERSION} | jq -r '.tag_name'))" && \
     echo "REPO_VERSION=$REPO_VERSION" && \
-	FILE_NAME="actions-runner-linux-x64-${VER#v}.tar.gz"
+	FILE_NAME="actions-runner-linux-x64-${VER#v}.tar.gz" && \
 	echo "repo download: https://github.com/actions/runner/releases/download/${REPO_VERSION}/$FILE_NAME" && \
     cd /home/docker && mkdir actions-runner && cd actions-runner && \
     curl -o $FILE_NAME -L https://github.com/actions/runner/releases/download/${REPO_VERSION}/$FILE_NAME && \
