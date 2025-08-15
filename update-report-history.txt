@@ -3,3 +3,4 @@ gio 14 ago 2025, 10:22:55, UTC --- ghcr.io/neomediatech/self-hosted-runner:lates
 gio 14 ago 2025, 13:04:10, UTC --- ghcr.io/neomediatech/self-hosted-runner:latest done (image build needed: true)
 gio 14 ago 2025, 13:28:46, UTC --- ghcr.io/neomediatech/self-hosted-runner:latest done (image build needed: true)
 gio 14 ago 2025, 14:11:01, UTC --- ghcr.io/neomediatech/self-hosted-runner:latest done (image build needed: true)
+ven 15 ago 2025, 17:17:49, UTC --- ghcr.io/neomediatech/self-hosted-runner:latest done (image build needed: true)
