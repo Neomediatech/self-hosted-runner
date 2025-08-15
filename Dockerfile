@@ -1,7 +1,11 @@
 FROM ghcr.io/neomediatech/ubuntu-base:24.04
 
 ENV DEBIAN_FRONTEND=noninteractive \
-    TZ=Europe/Rome
+    TZ=Europe/Rome \
+    SERVICE=self-hosted-runner
+
+LABEL org.opencontainers.image.source=https://github.com/Neomediatech/${SERVICE} \
+      org.opencontainers.package.name=actions/runner
 
 ARG APP_VERSION=latest
 
