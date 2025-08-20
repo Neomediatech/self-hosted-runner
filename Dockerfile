@@ -5,7 +5,8 @@ ENV DEBIAN_FRONTEND=noninteractive \
     SERVICE=self-hosted-runner
 
 LABEL org.opencontainers.image.source=https://github.com/Neomediatech/${SERVICE} \
-      org.opencontainers.package.name=actions/runner
+      org.opencontainers.package.name=actions/runner \
+      it.neomediatech.app-label=github
 
 ARG APP_VERSION=latest
 
