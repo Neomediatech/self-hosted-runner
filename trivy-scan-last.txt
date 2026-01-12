@@ -1,4 +1,4 @@
-gio 27 nov 2025, 16:57:52, CET --- ghcr.io/neomediatech/self-hosted-runner:latest
+lun 12 gen 2026, 18:42:05, CET --- ghcr.io/neomediatech/self-hosted-runner:latest
 
 Report Summary
 
@@ -1249,7 +1249,7 @@ For OSS Maintainers: VEX Notice
 --------------------------------
 If you're an OSS maintainer and Trivy has detected vulnerabilities in your project that you believe are not actually exploitable, consider issuing a VEX (Vulnerability Exploitability eXchange) statement.
 VEX allows you to communicate the actual status of vulnerabilities in your project, improving security transparency and reducing false positives for your users.
-Learn more and start using VEX: https://trivy.dev/v0.67/docs/supply-chain/vex/repo#publishing-vex-documents
+Learn more and start using VEX: https://trivy.dev/docs/v0.68/guide/supply-chain/vex/repo#publishing-vex-documents
 
 To disable this notice, set the TRIVY_DISABLE_VEX_NOTICE environment variable.
 
@@ -1264,8 +1264,8 @@ Total: 4 (HIGH: 4, CRITICAL: 0)
 │ cross-spawn (package.json) │ CVE-2024-21538 │ HIGH     │ fixed  │ 7.0.3             │ 7.0.5, 6.0.6   │ cross-spawn: regular expression denial of service         │
 │                            │                │          │        │                   │                │ https://avd.aquasec.com/nvd/cve-2024-21538                │
 ├────────────────────────────┼────────────────┤          │        ├───────────────────┼────────────────┼───────────────────────────────────────────────────────────┤
-│ glob (package.json)        │ CVE-2025-64756 │          │        │ 10.4.2            │ 11.1.0, 10.5.0 │ glob CLI: Command injection via -c/--cmd executes matches │
-│                            │                │          │        │                   │                │ with shell:true                                           │
+│ glob (package.json)        │ CVE-2025-64756 │          │        │ 10.4.2            │ 11.1.0, 10.5.0 │ glob: glob: Command Injection Vulnerability via Malicious │
+│                            │                │          │        │                   │                │ Filenames                                                 │
 │                            │                │          │        │                   │                │ https://avd.aquasec.com/nvd/cve-2025-64756                │
 │                            │                │          │        ├───────────────────┤                │                                                           │
 │                            │                │          │        │ 10.4.5            │                │                                                           │
