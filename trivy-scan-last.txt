@@ -1,4 +1,4 @@
-mar 7 apr 2026, 10:25:01, CEST --- ghcr.io/neomediatech/self-hosted-runner:latest
+lun 27 apr 2026, 10:51:17, CEST --- ghcr.io/neomediatech/self-hosted-runner:latest
 
 Report Summary
 
@@ -619,10 +619,7 @@ Report Summary
 │ son                                                                              │             │                 │         │                   │
 ├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
 │ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/@- │  node-pkg   │        0        │    -    │         -         │
-│ isaacs/balanced-match/package.json                                               │             │                 │         │                   │
-├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
-│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/@- │  node-pkg   │        0        │    -    │         -         │
-│ isaacs/brace-expansion/package.json                                              │             │                 │         │                   │
+│ gar/promise-retry/package.json                                                   │             │                 │         │                   │
 ├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
 │ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/@- │  node-pkg   │        0        │    -    │         -         │
 │ isaacs/fs-minipass/package.json                                                  │             │                 │         │                   │
@@ -706,19 +703,22 @@ Report Summary
 │ gent-base/package.json                                                           │             │                 │         │                   │
 ├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
 │ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/a- │  node-pkg   │        0        │    -    │         -         │
-│ nsi-regex/package.json                                                           │             │                 │         │                   │
-├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
-│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/a- │  node-pkg   │        0        │    -    │         -         │
 │ proba/package.json                                                               │             │                 │         │                   │
 ├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
 │ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/a- │  node-pkg   │        0        │    -    │         -         │
 │ rchy/package.json                                                                │             │                 │         │                   │
 ├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
 │ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/b- │  node-pkg   │        0        │    -    │         -         │
+│ alanced-match/package.json                                                       │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/b- │  node-pkg   │        0        │    -    │         -         │
 │ in-links/package.json                                                            │             │                 │         │                   │
 ├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
 │ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/b- │  node-pkg   │        0        │    -    │         -         │
 │ inary-extensions/package.json                                                    │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/b- │  node-pkg   │        0        │    -    │         -         │
+│ race-expansion/package.json                                                      │             │                 │         │                   │
 ├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
 │ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/c- │  node-pkg   │        0        │    -    │         -         │
 │ acache/package.json                                                              │             │                 │         │                   │
@@ -736,9 +736,6 @@ Report Summary
 │ idr-regex/package.json                                                           │             │                 │         │                   │
 ├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
 │ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/c- │  node-pkg   │        0        │    -    │         -         │
-│ li-columns/package.json                                                          │             │                 │         │                   │
-├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
-│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/c- │  node-pkg   │        0        │    -    │         -         │
 │ md-shim/package.json                                                             │             │                 │         │                   │
 ├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
 │ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/c- │  node-pkg   │        0        │    -    │         -         │
@@ -754,16 +751,7 @@ Report Summary
 │ iff/package.json                                                                 │             │                 │         │                   │
 ├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
 │ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/e- │  node-pkg   │        0        │    -    │         -         │
-│ moji-regex/package.json                                                          │             │                 │         │                   │
-├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
-│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/e- │  node-pkg   │        0        │    -    │         -         │
-│ ncoding/package.json                                                             │             │                 │         │                   │
-├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
-│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/e- │  node-pkg   │        0        │    -    │         -         │
 │ nv-paths/package.json                                                            │             │                 │         │                   │
-├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
-│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/e- │  node-pkg   │        0        │    -    │         -         │
-│ rr-code/package.json                                                             │             │                 │         │                   │
 ├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
 │ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/e- │  node-pkg   │        0        │    -    │         -         │
 │ xponential-backoff/package.json                                                  │             │                 │         │                   │
@@ -799,9 +787,6 @@ Report Summary
 │ gnore-walk/package.json                                                          │             │                 │         │                   │
 ├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
 │ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/i- │  node-pkg   │        0        │    -    │         -         │
-│ murmurhash/package.json                                                          │             │                 │         │                   │
-├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
-│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/i- │  node-pkg   │        0        │    -    │         -         │
 │ ni/package.json                                                                  │             │                 │         │                   │
 ├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
 │ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/i- │  node-pkg   │        0        │    -    │         -         │
@@ -811,13 +796,7 @@ Report Summary
 │ p-address/package.json                                                           │             │                 │         │                   │
 ├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
 │ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/i- │  node-pkg   │        0        │    -    │         -         │
-│ p-regex/package.json                                                             │             │                 │         │                   │
-├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
-│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/i- │  node-pkg   │        0        │    -    │         -         │
 │ s-cidr/package.json                                                              │             │                 │         │                   │
-├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
-│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/i- │  node-pkg   │        0        │    -    │         -         │
-│ s-fullwidth-code-point/package.json                                              │             │                 │         │                   │
 ├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
 │ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/i- │  node-pkg   │        0        │    -    │         -         │
 │ sexe/package.json                                                                │             │                 │         │                   │
@@ -873,7 +852,7 @@ Report Summary
 │ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/m- │  node-pkg   │        0        │    -    │         -         │
 │ ake-fetch-happen/package.json                                                    │             │                 │         │                   │
 ├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
-│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/m- │  node-pkg   │        3        │    -    │         -         │
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/m- │  node-pkg   │        0        │    -    │         -         │
 │ inimatch/package.json                                                            │             │                 │         │                   │
 ├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
 │ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/m- │  node-pkg   │        0        │    -    │         -         │
@@ -886,10 +865,16 @@ Report Summary
 │ inipass-flush/node_modules/minipass/package.json                                 │             │                 │         │                   │
 ├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
 │ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/m- │  node-pkg   │        0        │    -    │         -         │
+│ inipass-flush/node_modules/yallist/package.json                                  │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/m- │  node-pkg   │        0        │    -    │         -         │
 │ inipass-flush/package.json                                                       │             │                 │         │                   │
 ├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
 │ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/m- │  node-pkg   │        0        │    -    │         -         │
 │ inipass-pipeline/node_modules/minipass/package.json                              │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/m- │  node-pkg   │        0        │    -    │         -         │
+│ inipass-pipeline/node_modules/yallist/package.json                               │             │                 │         │                   │
 ├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
 │ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/m- │  node-pkg   │        0        │    -    │         -         │
 │ inipass-pipeline/package.json                                                    │             │                 │         │                   │
@@ -976,9 +961,6 @@ Report Summary
 │ romise-call-limit/package.json                                                   │             │                 │         │                   │
 ├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
 │ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/p- │  node-pkg   │        0        │    -    │         -         │
-│ romise-retry/package.json                                                        │             │                 │         │                   │
-├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
-│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/p- │  node-pkg   │        0        │    -    │         -         │
 │ romzard/package.json                                                             │             │                 │         │                   │
 ├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
 │ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/q- │  node-pkg   │        0        │    -    │         -         │
@@ -989,9 +971,6 @@ Report Summary
 ├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
 │ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/r- │  node-pkg   │        0        │    -    │         -         │
 │ ead/package.json                                                                 │             │                 │         │                   │
-├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
-│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/r- │  node-pkg   │        0        │    -    │         -         │
-│ etry/package.json                                                                │             │                 │         │                   │
 ├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
 │ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/s- │  node-pkg   │        0        │    -    │         -         │
 │ afer-buffer/package.json                                                         │             │                 │         │                   │
@@ -1015,12 +994,6 @@ Report Summary
 │ ocks/package.json                                                                │             │                 │         │                   │
 ├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
 │ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/s- │  node-pkg   │        0        │    -    │         -         │
-│ pdx-correct/node_modules/spdx-expression-parse/package.json                      │             │                 │         │                   │
-├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
-│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/s- │  node-pkg   │        0        │    -    │         -         │
-│ pdx-correct/package.json                                                         │             │                 │         │                   │
-├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
-│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/s- │  node-pkg   │        0        │    -    │         -         │
 │ pdx-exceptions/package.json                                                      │             │                 │         │                   │
 ├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
 │ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/s- │  node-pkg   │        0        │    -    │         -         │
@@ -1033,18 +1006,9 @@ Report Summary
 │ sri/package.json                                                                 │             │                 │         │                   │
 ├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
 │ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/s- │  node-pkg   │        0        │    -    │         -         │
-│ tring-width/package.json                                                         │             │                 │         │                   │
-├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
-│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/s- │  node-pkg   │        0        │    -    │         -         │
-│ trip-ansi/package.json                                                           │             │                 │         │                   │
-├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
-│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/s- │  node-pkg   │        0        │    -    │         -         │
 │ upports-color/package.json                                                       │             │                 │         │                   │
 ├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
 │ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/t- │  node-pkg   │        0        │    -    │         -         │
-│ ar/node_modules/yallist/package.json                                             │             │                 │         │                   │
-├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
-│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/t- │  node-pkg   │        3        │    -    │         -         │
 │ ar/package.json                                                                  │             │                 │         │                   │
 ├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
 │ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/t- │  node-pkg   │        0        │    -    │         -         │
@@ -1069,19 +1033,7 @@ Report Summary
 │ uf-js/package.json                                                               │             │                 │         │                   │
 ├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
 │ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/u- │  node-pkg   │        0        │    -    │         -         │
-│ nique-filename/package.json                                                      │             │                 │         │                   │
-├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
-│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/u- │  node-pkg   │        0        │    -    │         -         │
-│ nique-slug/package.json                                                          │             │                 │         │                   │
-├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
-│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/u- │  node-pkg   │        0        │    -    │         -         │
 │ til-deprecate/package.json                                                       │             │                 │         │                   │
-├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
-│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/v- │  node-pkg   │        0        │    -    │         -         │
-│ alidate-npm-package-license/node_modules/spdx-expression-parse/package.json      │             │                 │         │                   │
-├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
-│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/v- │  node-pkg   │        0        │    -    │         -         │
-│ alidate-npm-package-license/package.json                                         │             │                 │         │                   │
 ├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
 │ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/v- │  node-pkg   │        0        │    -    │         -         │
 │ alidate-npm-package-name/package.json                                            │             │                 │         │                   │
@@ -1116,7 +1068,7 @@ Report Summary
 ├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
 │ usr/bin/docker                                                                   │  gobinary   │        0        │    -    │         -         │
 ├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
-│ usr/libexec/docker/cli-plugins/docker-buildx                                     │  gobinary   │        1        │    -    │         -         │
+│ usr/libexec/docker/cli-plugins/docker-buildx                                     │  gobinary   │        6        │    -    │         -         │
 ├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
 │ usr/libexec/docker/cli-plugins/docker-compose                                    │  gobinary   │        5        │    -    │         -         │
 ├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
@@ -1135,130 +1087,123 @@ For OSS Maintainers: VEX Notice
 --------------------------------
 If you're an OSS maintainer and Trivy has detected vulnerabilities in your project that you believe are not actually exploitable, consider issuing a VEX (Vulnerability Exploitability eXchange) statement.
 VEX allows you to communicate the actual status of vulnerabilities in your project, improving security transparency and reducing false positives for your users.
-Learn more and start using VEX: https://trivy.dev/docs/v0.69/guide/supply-chain/vex/repo#publishing-vex-documents
+Learn more and start using VEX: https://trivy.dev/docs/v0.70/guide/supply-chain/vex/repo#publishing-vex-documents
 
 To disable this notice, set the TRIVY_DISABLE_VEX_NOTICE environment variable.
 
 
 Node.js (node-pkg)
 ==================
-Total: 18 (HIGH: 18, CRITICAL: 0)
+Total: 12 (HIGH: 12, CRITICAL: 0)
 
-┌────────────────────────────┬────────────────┬──────────┬────────┬───────────────────┬─────────────────────────────────────────────────────────┬────────────────────────────────────────────────────────────┐
-│          Library           │ Vulnerability  │ Severity │ Status │ Installed Version │                      Fixed Version                      │                           Title                            │
-├────────────────────────────┼────────────────┼──────────┼────────┼───────────────────┼─────────────────────────────────────────────────────────┼────────────────────────────────────────────────────────────┤
-│ cross-spawn (package.json) │ CVE-2024-21538 │ HIGH     │ fixed  │ 7.0.3             │ 7.0.5, 6.0.6                                            │ cross-spawn: regular expression denial of service          │
-│                            │                │          │        │                   │                                                         │ https://avd.aquasec.com/nvd/cve-2024-21538                 │
-├────────────────────────────┼────────────────┤          │        ├───────────────────┼─────────────────────────────────────────────────────────┼────────────────────────────────────────────────────────────┤
-│ glob (package.json)        │ CVE-2025-64756 │          │        │ 10.4.2            │ 11.1.0, 10.5.0                                          │ glob: glob: Command Injection Vulnerability via Malicious  │
-│                            │                │          │        │                   │                                                         │ Filenames                                                  │
-│                            │                │          │        │                   │                                                         │ https://avd.aquasec.com/nvd/cve-2025-64756                 │
-├────────────────────────────┼────────────────┤          │        ├───────────────────┼─────────────────────────────────────────────────────────┼────────────────────────────────────────────────────────────┤
-│ minimatch (package.json)   │ CVE-2026-26996 │          │        │ 10.1.2            │ 10.2.1, 9.0.6, 8.0.5, 7.4.7, 6.2.1, 5.1.7, 4.2.4, 3.1.3 │ minimatch: minimatch: Denial of Service via specially      │
-│                            │                │          │        │                   │                                                         │ crafted glob patterns                                      │
-│                            │                │          │        │                   │                                                         │ https://avd.aquasec.com/nvd/cve-2026-26996                 │
-│                            ├────────────────┤          │        │                   ├─────────────────────────────────────────────────────────┼────────────────────────────────────────────────────────────┤
-│                            │ CVE-2026-27903 │          │        │                   │ 10.2.3, 9.0.7, 8.0.6, 7.4.8, 6.2.2, 5.1.8, 4.2.5, 3.1.3 │ minimatch: minimatch: Denial of Service due to unbounded   │
-│                            │                │          │        │                   │                                                         │ recursive backtracking via crafted...                      │
-│                            │                │          │        │                   │                                                         │ https://avd.aquasec.com/nvd/cve-2026-27903                 │
-│                            ├────────────────┤          │        │                   ├─────────────────────────────────────────────────────────┼────────────────────────────────────────────────────────────┤
-│                            │ CVE-2026-27904 │          │        │                   │ 10.2.3, 9.0.7, 8.0.6, 7.4.8, 6.2.2, 5.1.8, 4.2.5, 3.1.4 │ minimatch: Minimatch: Denial of Service via catastrophic   │
-│                            │                │          │        │                   │                                                         │ backtracking in glob expressions                           │
-│                            │                │          │        │                   │                                                         │ https://avd.aquasec.com/nvd/cve-2026-27904                 │
-│                            ├────────────────┤          │        ├───────────────────┼─────────────────────────────────────────────────────────┼────────────────────────────────────────────────────────────┤
-│                            │ CVE-2026-26996 │          │        │ 9.0.5             │ 10.2.1, 9.0.6, 8.0.5, 7.4.7, 6.2.1, 5.1.7, 4.2.4, 3.1.3 │ minimatch: minimatch: Denial of Service via specially      │
-│                            │                │          │        │                   │                                                         │ crafted glob patterns                                      │
-│                            │                │          │        │                   │                                                         │ https://avd.aquasec.com/nvd/cve-2026-26996                 │
-│                            ├────────────────┤          │        │                   ├─────────────────────────────────────────────────────────┼────────────────────────────────────────────────────────────┤
-│                            │ CVE-2026-27903 │          │        │                   │ 10.2.3, 9.0.7, 8.0.6, 7.4.8, 6.2.2, 5.1.8, 4.2.5, 3.1.3 │ minimatch: minimatch: Denial of Service due to unbounded   │
-│                            │                │          │        │                   │                                                         │ recursive backtracking via crafted...                      │
-│                            │                │          │        │                   │                                                         │ https://avd.aquasec.com/nvd/cve-2026-27903                 │
-│                            ├────────────────┤          │        │                   ├─────────────────────────────────────────────────────────┼────────────────────────────────────────────────────────────┤
-│                            │ CVE-2026-27904 │          │        │                   │ 10.2.3, 9.0.7, 8.0.6, 7.4.8, 6.2.2, 5.1.8, 4.2.5, 3.1.4 │ minimatch: Minimatch: Denial of Service via catastrophic   │
-│                            │                │          │        │                   │                                                         │ backtracking in glob expressions                           │
-│                            │                │          │        │                   │                                                         │ https://avd.aquasec.com/nvd/cve-2026-27904                 │
-├────────────────────────────┼────────────────┤          │        ├───────────────────┼─────────────────────────────────────────────────────────┼────────────────────────────────────────────────────────────┤
-│ picomatch (package.json)   │ CVE-2026-33671 │          │        │ 4.0.3             │ 4.0.4, 3.0.2, 2.3.2                                     │ picomatch: Picomatch: Regular Expression Denial of Service │
-│                            │                │          │        │                   │                                                         │ via crafted extglob patterns                               │
-│                            │                │          │        │                   │                                                         │ https://avd.aquasec.com/nvd/cve-2026-33671                 │
-├────────────────────────────┼────────────────┤          │        ├───────────────────┼─────────────────────────────────────────────────────────┼────────────────────────────────────────────────────────────┤
-│ tar (package.json)         │ CVE-2026-23745 │          │        │ 6.2.1             │ 7.5.3                                                   │ node-tar: tar: node-tar: Arbitrary file overwrite and      │
-│                            │                │          │        │                   │                                                         │ symlink poisoning via unsanitized linkpaths...             │
-│                            │                │          │        │                   │                                                         │ https://avd.aquasec.com/nvd/cve-2026-23745                 │
-│                            ├────────────────┤          │        │                   ├─────────────────────────────────────────────────────────┼────────────────────────────────────────────────────────────┤
-│                            │ CVE-2026-23950 │          │        │                   │ 7.5.4                                                   │ node-tar: tar: node-tar: Arbitrary file overwrite via      │
-│                            │                │          │        │                   │                                                         │ Unicode path collision race condition...                   │
-│                            │                │          │        │                   │                                                         │ https://avd.aquasec.com/nvd/cve-2026-23950                 │
-│                            ├────────────────┤          │        │                   ├─────────────────────────────────────────────────────────┼────────────────────────────────────────────────────────────┤
-│                            │ CVE-2026-24842 │          │        │                   │ 7.5.7                                                   │ node-tar: tar: node-tar: Arbitrary file creation via path  │
-│                            │                │          │        │                   │                                                         │ traversal bypass in hardlink...                            │
-│                            │                │          │        │                   │                                                         │ https://avd.aquasec.com/nvd/cve-2026-24842                 │
-│                            ├────────────────┤          │        │                   ├─────────────────────────────────────────────────────────┼────────────────────────────────────────────────────────────┤
-│                            │ CVE-2026-26960 │          │        │                   │ 7.5.8                                                   │ tar: node-tar: node-tar: Arbitrary file read/write via     │
-│                            │                │          │        │                   │                                                         │ malicious archive hardlink creation                        │
-│                            │                │          │        │                   │                                                         │ https://avd.aquasec.com/nvd/cve-2026-26960                 │
-│                            ├────────────────┤          │        │                   ├─────────────────────────────────────────────────────────┼────────────────────────────────────────────────────────────┤
-│                            │ CVE-2026-29786 │          │        │                   │ 7.5.10                                                  │ node-tar: hardlink path traversal via drive-relative       │
-│                            │                │          │        │                   │                                                         │ linkpath                                                   │
-│                            │                │          │        │                   │                                                         │ https://avd.aquasec.com/nvd/cve-2026-29786                 │
-│                            ├────────────────┤          │        │                   ├─────────────────────────────────────────────────────────┼────────────────────────────────────────────────────────────┤
-│                            │ CVE-2026-31802 │          │        │                   │ 7.5.11                                                  │ tar: tar: File overwrite via drive-relative symlink        │
-│                            │                │          │        │                   │                                                         │ traversal                                                  │
-│                            │                │          │        │                   │                                                         │ https://avd.aquasec.com/nvd/cve-2026-31802                 │
-│                            ├────────────────┤          │        ├───────────────────┼─────────────────────────────────────────────────────────┼────────────────────────────────────────────────────────────┤
-│                            │ CVE-2026-26960 │          │        │ 7.5.7             │ 7.5.8                                                   │ tar: node-tar: node-tar: Arbitrary file read/write via     │
-│                            │                │          │        │                   │                                                         │ malicious archive hardlink creation                        │
-│                            │                │          │        │                   │                                                         │ https://avd.aquasec.com/nvd/cve-2026-26960                 │
-│                            ├────────────────┤          │        │                   ├─────────────────────────────────────────────────────────┼────────────────────────────────────────────────────────────┤
-│                            │ CVE-2026-29786 │          │        │                   │ 7.5.10                                                  │ node-tar: hardlink path traversal via drive-relative       │
-│                            │                │          │        │                   │                                                         │ linkpath                                                   │
-│                            │                │          │        │                   │                                                         │ https://avd.aquasec.com/nvd/cve-2026-29786                 │
-│                            ├────────────────┤          │        │                   ├─────────────────────────────────────────────────────────┼────────────────────────────────────────────────────────────┤
-│                            │ CVE-2026-31802 │          │        │                   │ 7.5.11                                                  │ tar: tar: File overwrite via drive-relative symlink        │
-│                            │                │          │        │                   │                                                         │ traversal                                                  │
-│                            │                │          │        │                   │                                                         │ https://avd.aquasec.com/nvd/cve-2026-31802                 │
-└────────────────────────────┴────────────────┴──────────┴────────┴───────────────────┴─────────────────────────────────────────────────────────┴────────────────────────────────────────────────────────────┘
+┌────────────────────────────┬────────────────┬──────────┬────────┬───────────────────┬─────────────────────────────────────────────────────────┬─────────────────────────────────────────────────────────────┐
+│          Library           │ Vulnerability  │ Severity │ Status │ Installed Version │                      Fixed Version                      │                            Title                            │
+├────────────────────────────┼────────────────┼──────────┼────────┼───────────────────┼─────────────────────────────────────────────────────────┼─────────────────────────────────────────────────────────────┤
+│ cross-spawn (package.json) │ CVE-2024-21538 │ HIGH     │ fixed  │ 7.0.3             │ 7.0.5, 6.0.6                                            │ cross-spawn: regular expression denial of service           │
+│                            │                │          │        │                   │                                                         │ https://avd.aquasec.com/nvd/cve-2024-21538                  │
+├────────────────────────────┼────────────────┤          │        ├───────────────────┼─────────────────────────────────────────────────────────┼─────────────────────────────────────────────────────────────┤
+│ glob (package.json)        │ CVE-2025-64756 │          │        │ 10.4.2            │ 11.1.0, 10.5.0                                          │ glob: glob: Command Injection Vulnerability via Malicious   │
+│                            │                │          │        │                   │                                                         │ Filenames                                                   │
+│                            │                │          │        │                   │                                                         │ https://avd.aquasec.com/nvd/cve-2025-64756                  │
+├────────────────────────────┼────────────────┤          │        ├───────────────────┼─────────────────────────────────────────────────────────┼─────────────────────────────────────────────────────────────┤
+│ minimatch (package.json)   │ CVE-2026-26996 │          │        │ 9.0.5             │ 10.2.1, 9.0.6, 8.0.5, 7.4.7, 6.2.1, 5.1.7, 4.2.4, 3.1.3 │ minimatch: minimatch: Denial of Service via specially       │
+│                            │                │          │        │                   │                                                         │ crafted glob patterns                                       │
+│                            │                │          │        │                   │                                                         │ https://avd.aquasec.com/nvd/cve-2026-26996                  │
+│                            ├────────────────┤          │        │                   ├─────────────────────────────────────────────────────────┼─────────────────────────────────────────────────────────────┤
+│                            │ CVE-2026-27903 │          │        │                   │ 10.2.3, 9.0.7, 8.0.6, 7.4.8, 6.2.2, 5.1.8, 4.2.5, 3.1.3 │ minimatch: minimatch: Denial of Service due to unbounded    │
+│                            │                │          │        │                   │                                                         │ recursive backtracking via crafted...                       │
+│                            │                │          │        │                   │                                                         │ https://avd.aquasec.com/nvd/cve-2026-27903                  │
+│                            ├────────────────┤          │        │                   ├─────────────────────────────────────────────────────────┼─────────────────────────────────────────────────────────────┤
+│                            │ CVE-2026-27904 │          │        │                   │ 10.2.3, 9.0.7, 8.0.6, 7.4.8, 6.2.2, 5.1.8, 4.2.5, 3.1.4 │ minimatch: Minimatch: Denial of Service via catastrophic    │
+│                            │                │          │        │                   │                                                         │ backtracking in glob expressions                            │
+│                            │                │          │        │                   │                                                         │ https://avd.aquasec.com/nvd/cve-2026-27904                  │
+├────────────────────────────┼────────────────┤          │        ├───────────────────┼─────────────────────────────────────────────────────────┼─────────────────────────────────────────────────────────────┤
+│ picomatch (package.json)   │ CVE-2026-33671 │          │        │ 4.0.3             │ 4.0.4, 3.0.2, 2.3.2                                     │ picomatch: Picomatch: Regular Expression Denial of Service  │
+│                            │                │          │        │                   │                                                         │ via crafted extglob patterns                                │
+│                            │                │          │        │                   │                                                         │ https://avd.aquasec.com/nvd/cve-2026-33671                  │
+├────────────────────────────┼────────────────┤          │        ├───────────────────┼─────────────────────────────────────────────────────────┼─────────────────────────────────────────────────────────────┤
+│ tar (package.json)         │ CVE-2026-23745 │          │        │ 6.2.1             │ 7.5.3                                                   │ node-tar: tar: node-tar: Arbitrary file overwrite and       │
+│                            │                │          │        │                   │                                                         │ symlink poisoning via unsanitized linkpaths...              │
+│                            │                │          │        │                   │                                                         │ https://avd.aquasec.com/nvd/cve-2026-23745                  │
+│                            ├────────────────┤          │        │                   ├─────────────────────────────────────────────────────────┼─────────────────────────────────────────────────────────────┤
+│                            │ CVE-2026-23950 │          │        │                   │ 7.5.4                                                   │ node-tar: tar: node-tar: Arbitrary file overwrite via       │
+│                            │                │          │        │                   │                                                         │ Unicode path collision race condition...                    │
+│                            │                │          │        │                   │                                                         │ https://avd.aquasec.com/nvd/cve-2026-23950                  │
+│                            ├────────────────┤          │        │                   ├─────────────────────────────────────────────────────────┼─────────────────────────────────────────────────────────────┤
+│                            │ CVE-2026-24842 │          │        │                   │ 7.5.7                                                   │ node-tar: tar: node-tar: Arbitrary file creation via path   │
+│                            │                │          │        │                   │                                                         │ traversal bypass in hardlink...                             │
+│                            │                │          │        │                   │                                                         │ https://avd.aquasec.com/nvd/cve-2026-24842                  │
+│                            ├────────────────┤          │        │                   ├─────────────────────────────────────────────────────────┼─────────────────────────────────────────────────────────────┤
+│                            │ CVE-2026-26960 │          │        │                   │ 7.5.8                                                   │ node-tar: node-tar: Arbitrary file read/write via malicious │
+│                            │                │          │        │                   │                                                         │ archive hardlink creation                                   │
+│                            │                │          │        │                   │                                                         │ https://avd.aquasec.com/nvd/cve-2026-26960                  │
+│                            ├────────────────┤          │        │                   ├─────────────────────────────────────────────────────────┼─────────────────────────────────────────────────────────────┤
+│                            │ CVE-2026-29786 │          │        │                   │ 7.5.10                                                  │ node-tar: hardlink path traversal via drive-relative        │
+│                            │                │          │        │                   │                                                         │ linkpath                                                    │
+│                            │                │          │        │                   │                                                         │ https://avd.aquasec.com/nvd/cve-2026-29786                  │
+│                            ├────────────────┤          │        │                   ├─────────────────────────────────────────────────────────┼─────────────────────────────────────────────────────────────┤
+│                            │ CVE-2026-31802 │          │        │                   │ 7.5.11                                                  │ tar: tar: File overwrite via drive-relative symlink         │
+│                            │                │          │        │                   │                                                         │ traversal                                                   │
+│                            │                │          │        │                   │                                                         │ https://avd.aquasec.com/nvd/cve-2026-31802                  │
+└────────────────────────────┴────────────────┴──────────┴────────┴───────────────────┴─────────────────────────────────────────────────────────┴─────────────────────────────────────────────────────────────┘
 
 usr/libexec/docker/cli-plugins/docker-buildx (gobinary)
 =======================================================
-Total: 1 (HIGH: 1, CRITICAL: 0)
+Total: 6 (HIGH: 6, CRITICAL: 0)
 
-┌──────────────────────────┬────────────────┬──────────┬────────┬──────────────────────┬───────────────┬──────────────────────────────────────────────────────────────┐
-│         Library          │ Vulnerability  │ Severity │ Status │  Installed Version   │ Fixed Version │                            Title                             │
-├──────────────────────────┼────────────────┼──────────┼────────┼──────────────────────┼───────────────┼──────────────────────────────────────────────────────────────┤
-│ github.com/docker/docker │ CVE-2026-34040 │ HIGH     │ fixed  │ v28.5.2+incompatible │ 29.3.1        │ Moby is an open source container framework. Prior to version │
-│                          │                │          │        │                      │               │ 29.3.1, a...                                                 │
-│                          │                │          │        │                      │               │ https://avd.aquasec.com/nvd/cve-2026-34040                   │
-└──────────────────────────┴────────────────┴──────────┴────────┴──────────────────────┴───────────────┴──────────────────────────────────────────────────────────────┘
+┌──────────────────────────────┬────────────────┬──────────┬────────┬──────────────────────┬────────────────┬─────────────────────────────────────────────────────────────┐
+│           Library            │ Vulnerability  │ Severity │ Status │  Installed Version   │ Fixed Version  │                            Title                            │
+├──────────────────────────────┼────────────────┼──────────┼────────┼──────────────────────┼────────────────┼─────────────────────────────────────────────────────────────┤
+│ github.com/docker/docker     │ CVE-2026-34040 │ HIGH     │ fixed  │ v28.5.2+incompatible │ 29.3.1         │ Moby: Moby: Authorization bypass vulnerability              │
+│                              │                │          │        │                      │                │ https://avd.aquasec.com/nvd/cve-2026-34040                  │
+├──────────────────────────────┼────────────────┤          │        ├──────────────────────┼────────────────┼─────────────────────────────────────────────────────────────┤
+│ github.com/moby/spdystream   │ CVE-2026-35469 │          │        │ v0.5.0               │ 0.5.1          │ Kubelet: CRI-O: kube-apiserver: Kubelet, CRI-O,             │
+│                              │                │          │        │                      │                │ kube-apiserver: Denial of Service via SPDY streaming...     │
+│                              │                │          │        │                      │                │ https://avd.aquasec.com/nvd/cve-2026-35469                  │
+├──────────────────────────────┼────────────────┤          │        ├──────────────────────┼────────────────┼─────────────────────────────────────────────────────────────┤
+│ go.opentelemetry.io/otel/sdk │ CVE-2026-39883 │          │        │ v1.40.0              │ 1.43.0         │ opentelemetry-go: BSD kenv command not using absolute path  │
+│                              │                │          │        │                      │                │ enables PATH hijacking                                      │
+│                              │                │          │        │                      │                │ https://avd.aquasec.com/nvd/cve-2026-39883                  │
+├──────────────────────────────┼────────────────┤          │        ├──────────────────────┼────────────────┼─────────────────────────────────────────────────────────────┤
+│ stdlib                       │ CVE-2026-32280 │          │        │ v1.25.8              │ 1.25.9, 1.26.2 │ crypto/x509: crypto/tls: golang: Go: Denial of Service      │
+│                              │                │          │        │                      │                │ vulnerability in certificate chain building...              │
+│                              │                │          │        │                      │                │ https://avd.aquasec.com/nvd/cve-2026-32280                  │
+│                              ├────────────────┤          │        │                      │                ├─────────────────────────────────────────────────────────────┤
+│                              │ CVE-2026-32281 │          │        │                      │                │ crypto/x509: golang: Go crypto/x509: Denial of Service via  │
+│                              │                │          │        │                      │                │ inefficient certificate chain validation...                 │
+│                              │                │          │        │                      │                │ https://avd.aquasec.com/nvd/cve-2026-32281                  │
+│                              ├────────────────┤          │        │                      │                ├─────────────────────────────────────────────────────────────┤
+│                              │ CVE-2026-32283 │          │        │                      │                │ If one side of the TLS connection sends multiple key update │
+│                              │                │          │        │                      │                │ messages...                                                 │
+│                              │                │          │        │                      │                │ https://avd.aquasec.com/nvd/cve-2026-32283                  │
+└──────────────────────────────┴────────────────┴──────────┴────────┴──────────────────────┴────────────────┴─────────────────────────────────────────────────────────────┘
 
 usr/libexec/docker/cli-plugins/docker-compose (gobinary)
 ========================================================
-Total: 5 (HIGH: 4, CRITICAL: 1)
+Total: 5 (HIGH: 5, CRITICAL: 0)
 
-┌──────────────────────────────┬────────────────┬──────────┬────────┬──────────────────────┬───────────────┬──────────────────────────────────────────────────────────────┐
-│           Library            │ Vulnerability  │ Severity │ Status │  Installed Version   │ Fixed Version │                            Title                             │
-├──────────────────────────────┼────────────────┼──────────┼────────┼──────────────────────┼───────────────┼──────────────────────────────────────────────────────────────┤
-│ github.com/docker/docker     │ CVE-2026-34040 │ HIGH     │ fixed  │ v28.5.2+incompatible │ 29.3.1        │ Moby is an open source container framework. Prior to version │
-│                              │                │          │        │                      │               │ 29.3.1, a...                                                 │
-│                              │                │          │        │                      │               │ https://avd.aquasec.com/nvd/cve-2026-34040                   │
-├──────────────────────────────┼────────────────┤          │        ├──────────────────────┼───────────────┼──────────────────────────────────────────────────────────────┤
-│ github.com/moby/buildkit     │ CVE-2026-33747 │          │        │ v0.27.1              │ 0.28.1        │ BuildKit: github.com/moby/buildkit: BuildKit: Arbitrary file │
-│                              │                │          │        │                      │               │ write and code execution via untrusted frontend...           │
-│                              │                │          │        │                      │               │ https://avd.aquasec.com/nvd/cve-2026-33747                   │
-│                              ├────────────────┤          │        │                      │               ├──────────────────────────────────────────────────────────────┤
-│                              │ CVE-2026-33748 │          │        │                      │               │ github.com/moby/buildkit: BuildKit: Unauthorized file access │
-│                              │                │          │        │                      │               │ via Git URL fragment subdir components                       │
-│                              │                │          │        │                      │               │ https://avd.aquasec.com/nvd/cve-2026-33748                   │
-├──────────────────────────────┼────────────────┤          │        ├──────────────────────┼───────────────┼──────────────────────────────────────────────────────────────┤
-│ go.opentelemetry.io/otel/sdk │ CVE-2026-24051 │          │        │ v1.38.0              │ 1.40.0        │ OpenTelemetry Go SDK Vulnerable to Arbitrary Code Execution  │
-│                              │                │          │        │                      │               │ via PATH Hijacking                                           │
-│                              │                │          │        │                      │               │ https://avd.aquasec.com/nvd/cve-2026-24051                   │
-├──────────────────────────────┼────────────────┼──────────┤        ├──────────────────────┼───────────────┼──────────────────────────────────────────────────────────────┤
-│ google.golang.org/grpc       │ CVE-2026-33186 │ CRITICAL │        │ v1.78.0              │ 1.79.3        │ google.golang.org/grpc/grpc-go:                              │
-│                              │                │          │        │                      │               │ google.golang.org/grpc/authz: gRPC-Go: Authorization bypass  │
-│                              │                │          │        │                      │               │ due to improper HTTP/2 path validation                       │
-│                              │                │          │        │                      │               │ https://avd.aquasec.com/nvd/cve-2026-33186                   │
-└──────────────────────────────┴────────────────┴──────────┴────────┴──────────────────────┴───────────────┴──────────────────────────────────────────────────────────────┘
+┌──────────────────────────────┬────────────────┬──────────┬────────┬──────────────────────┬────────────────┬─────────────────────────────────────────────────────────────┐
+│           Library            │ Vulnerability  │ Severity │ Status │  Installed Version   │ Fixed Version  │                            Title                            │
+├──────────────────────────────┼────────────────┼──────────┼────────┼──────────────────────┼────────────────┼─────────────────────────────────────────────────────────────┤
+│ github.com/docker/docker     │ CVE-2026-34040 │ HIGH     │ fixed  │ v28.5.2+incompatible │ 29.3.1         │ Moby: Moby: Authorization bypass vulnerability              │
+│                              │                │          │        │                      │                │ https://avd.aquasec.com/nvd/cve-2026-34040                  │
+├──────────────────────────────┼────────────────┤          │        ├──────────────────────┼────────────────┼─────────────────────────────────────────────────────────────┤
+│ go.opentelemetry.io/otel/sdk │ CVE-2026-39883 │          │        │ v1.42.0              │ 1.43.0         │ opentelemetry-go: BSD kenv command not using absolute path  │
+│                              │                │          │        │                      │                │ enables PATH hijacking                                      │
+│                              │                │          │        │                      │                │ https://avd.aquasec.com/nvd/cve-2026-39883                  │
+├──────────────────────────────┼────────────────┤          │        ├──────────────────────┼────────────────┼─────────────────────────────────────────────────────────────┤
+│ stdlib                       │ CVE-2026-32280 │          │        │ v1.25.8              │ 1.25.9, 1.26.2 │ crypto/x509: crypto/tls: golang: Go: Denial of Service      │
+│                              │                │          │        │                      │                │ vulnerability in certificate chain building...              │
+│                              │                │          │        │                      │                │ https://avd.aquasec.com/nvd/cve-2026-32280                  │
+│                              ├────────────────┤          │        │                      │                ├─────────────────────────────────────────────────────────────┤
+│                              │ CVE-2026-32281 │          │        │                      │                │ crypto/x509: golang: Go crypto/x509: Denial of Service via  │
+│                              │                │          │        │                      │                │ inefficient certificate chain validation...                 │
+│                              │                │          │        │                      │                │ https://avd.aquasec.com/nvd/cve-2026-32281                  │
+│                              ├────────────────┤          │        │                      │                ├─────────────────────────────────────────────────────────────┤
+│                              │ CVE-2026-32283 │          │        │                      │                │ If one side of the TLS connection sends multiple key update │
+│                              │                │          │        │                      │                │ messages...                                                 │
+│                              │                │          │        │                      │                │ https://avd.aquasec.com/nvd/cve-2026-32283                  │
+└──────────────────────────────┴────────────────┴──────────┴────────┴──────────────────────┴────────────────┴─────────────────────────────────────────────────────────────┘
 
 /etc/ssh/ssh_host_ecdsa_key (secrets)
 =====================================

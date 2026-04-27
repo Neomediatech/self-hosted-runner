@@ -1,1 +1,1 @@
-mar 7 apr 2026, 10:24:04, CEST --- ghcr.io/neomediatech/self-hosted-runner:latest done (image build needed: true)
+lun 27 apr 2026, 10:50:23, CEST --- ghcr.io/neomediatech/self-hosted-runner:latest done (image build needed: true)
