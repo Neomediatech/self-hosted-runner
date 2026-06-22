@@ -1,4 +1,4 @@
-lun 27 apr 2026, 10:51:17, CEST --- ghcr.io/neomediatech/self-hosted-runner:latest
+lun 22 giu 2026, 18:04:27, CEST --- ghcr.io/neomediatech/self-hosted-runner:latest
 
 Report Summary
 
@@ -862,12 +862,6 @@ Report Summary
 │ inipass-fetch/package.json                                                       │             │                 │         │                   │
 ├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
 │ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/m- │  node-pkg   │        0        │    -    │         -         │
-│ inipass-flush/node_modules/minipass/package.json                                 │             │                 │         │                   │
-├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
-│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/m- │  node-pkg   │        0        │    -    │         -         │
-│ inipass-flush/node_modules/yallist/package.json                                  │             │                 │         │                   │
-├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
-│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/m- │  node-pkg   │        0        │    -    │         -         │
 │ inipass-flush/package.json                                                       │             │                 │         │                   │
 ├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
 │ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/m- │  node-pkg   │        0        │    -    │         -         │
@@ -1020,7 +1014,7 @@ Report Summary
 │ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/t- │  node-pkg   │        0        │    -    │         -         │
 │ inyglobby/node_modules/fdir/package.json                                         │             │                 │         │                   │
 ├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
-│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/t- │  node-pkg   │        1        │    -    │         -         │
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/t- │  node-pkg   │        0        │    -    │         -         │
 │ inyglobby/node_modules/picomatch/package.json                                    │             │                 │         │                   │
 ├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
 │ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/t- │  node-pkg   │        0        │    -    │         -         │
@@ -1031,6 +1025,9 @@ Report Summary
 ├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
 │ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/t- │  node-pkg   │        0        │    -    │         -         │
 │ uf-js/package.json                                                               │             │                 │         │                   │
+├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/u- │  node-pkg   │        1        │    -    │         -         │
+│ ndici/package.json                                                               │             │                 │         │                   │
 ├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
 │ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/u- │  node-pkg   │        0        │    -    │         -         │
 │ til-deprecate/package.json                                                       │             │                 │         │                   │
@@ -1070,7 +1067,7 @@ Report Summary
 ├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
 │ usr/libexec/docker/cli-plugins/docker-buildx                                     │  gobinary   │        6        │    -    │         -         │
 ├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
-│ usr/libexec/docker/cli-plugins/docker-compose                                    │  gobinary   │        5        │    -    │         -         │
+│ usr/libexec/docker/cli-plugins/docker-compose                                    │  gobinary   │        6        │    -    │         -         │
 ├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
 │ /etc/ssh/ssh_host_ecdsa_key                                                      │    text     │        -        │    1    │         -         │
 ├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
@@ -1087,7 +1084,7 @@ For OSS Maintainers: VEX Notice
 --------------------------------
 If you're an OSS maintainer and Trivy has detected vulnerabilities in your project that you believe are not actually exploitable, consider issuing a VEX (Vulnerability Exploitability eXchange) statement.
 VEX allows you to communicate the actual status of vulnerabilities in your project, improving security transparency and reducing false positives for your users.
-Learn more and start using VEX: https://trivy.dev/docs/v0.70/guide/supply-chain/vex/repo#publishing-vex-documents
+Learn more and start using VEX: https://trivy.dev/docs/v0.71/guide/supply-chain/vex/repo#publishing-vex-documents
 
 To disable this notice, set the TRIVY_DISABLE_VEX_NOTICE environment variable.
 
@@ -1118,10 +1115,6 @@ Total: 12 (HIGH: 12, CRITICAL: 0)
 │                            │                │          │        │                   │                                                         │ backtracking in glob expressions                            │
 │                            │                │          │        │                   │                                                         │ https://avd.aquasec.com/nvd/cve-2026-27904                  │
 ├────────────────────────────┼────────────────┤          │        ├───────────────────┼─────────────────────────────────────────────────────────┼─────────────────────────────────────────────────────────────┤
-│ picomatch (package.json)   │ CVE-2026-33671 │          │        │ 4.0.3             │ 4.0.4, 3.0.2, 2.3.2                                     │ picomatch: Picomatch: Regular Expression Denial of Service  │
-│                            │                │          │        │                   │                                                         │ via crafted extglob patterns                                │
-│                            │                │          │        │                   │                                                         │ https://avd.aquasec.com/nvd/cve-2026-33671                  │
-├────────────────────────────┼────────────────┤          │        ├───────────────────┼─────────────────────────────────────────────────────────┼─────────────────────────────────────────────────────────────┤
 │ tar (package.json)         │ CVE-2026-23745 │          │        │ 6.2.1             │ 7.5.3                                                   │ node-tar: tar: node-tar: Arbitrary file overwrite and       │
 │                            │                │          │        │                   │                                                         │ symlink poisoning via unsanitized linkpaths...              │
 │                            │                │          │        │                   │                                                         │ https://avd.aquasec.com/nvd/cve-2026-23745                  │
@@ -1145,65 +1138,73 @@ Total: 12 (HIGH: 12, CRITICAL: 0)
 │                            │ CVE-2026-31802 │          │        │                   │ 7.5.11                                                  │ tar: tar: File overwrite via drive-relative symlink         │
 │                            │                │          │        │                   │                                                         │ traversal                                                   │
 │                            │                │          │        │                   │                                                         │ https://avd.aquasec.com/nvd/cve-2026-31802                  │
+├────────────────────────────┼────────────────┤          │        ├───────────────────┼─────────────────────────────────────────────────────────┼─────────────────────────────────────────────────────────────┤
+│ undici (package.json)      │ CVE-2026-12151 │          │        │ 6.25.0            │ 6.27.0, 7.28.0, 8.5.0                                   │ undici: undici: Denial of Service due to unbounded memory   │
+│                            │                │          │        │                   │                                                         │ growth via WebSocket...                                     │
+│                            │                │          │        │                   │                                                         │ https://avd.aquasec.com/nvd/cve-2026-12151                  │
 └────────────────────────────┴────────────────┴──────────┴────────┴───────────────────┴─────────────────────────────────────────────────────────┴─────────────────────────────────────────────────────────────┘
 
 usr/libexec/docker/cli-plugins/docker-buildx (gobinary)
 =======================================================
 Total: 6 (HIGH: 6, CRITICAL: 0)
 
-┌──────────────────────────────┬────────────────┬──────────┬────────┬──────────────────────┬────────────────┬─────────────────────────────────────────────────────────────┐
-│           Library            │ Vulnerability  │ Severity │ Status │  Installed Version   │ Fixed Version  │                            Title                            │
-├──────────────────────────────┼────────────────┼──────────┼────────┼──────────────────────┼────────────────┼─────────────────────────────────────────────────────────────┤
-│ github.com/docker/docker     │ CVE-2026-34040 │ HIGH     │ fixed  │ v28.5.2+incompatible │ 29.3.1         │ Moby: Moby: Authorization bypass vulnerability              │
-│                              │                │          │        │                      │                │ https://avd.aquasec.com/nvd/cve-2026-34040                  │
-├──────────────────────────────┼────────────────┤          │        ├──────────────────────┼────────────────┼─────────────────────────────────────────────────────────────┤
-│ github.com/moby/spdystream   │ CVE-2026-35469 │          │        │ v0.5.0               │ 0.5.1          │ Kubelet: CRI-O: kube-apiserver: Kubelet, CRI-O,             │
-│                              │                │          │        │                      │                │ kube-apiserver: Denial of Service via SPDY streaming...     │
-│                              │                │          │        │                      │                │ https://avd.aquasec.com/nvd/cve-2026-35469                  │
-├──────────────────────────────┼────────────────┤          │        ├──────────────────────┼────────────────┼─────────────────────────────────────────────────────────────┤
-│ go.opentelemetry.io/otel/sdk │ CVE-2026-39883 │          │        │ v1.40.0              │ 1.43.0         │ opentelemetry-go: BSD kenv command not using absolute path  │
-│                              │                │          │        │                      │                │ enables PATH hijacking                                      │
-│                              │                │          │        │                      │                │ https://avd.aquasec.com/nvd/cve-2026-39883                  │
-├──────────────────────────────┼────────────────┤          │        ├──────────────────────┼────────────────┼─────────────────────────────────────────────────────────────┤
-│ stdlib                       │ CVE-2026-32280 │          │        │ v1.25.8              │ 1.25.9, 1.26.2 │ crypto/x509: crypto/tls: golang: Go: Denial of Service      │
-│                              │                │          │        │                      │                │ vulnerability in certificate chain building...              │
-│                              │                │          │        │                      │                │ https://avd.aquasec.com/nvd/cve-2026-32280                  │
-│                              ├────────────────┤          │        │                      │                ├─────────────────────────────────────────────────────────────┤
-│                              │ CVE-2026-32281 │          │        │                      │                │ crypto/x509: golang: Go crypto/x509: Denial of Service via  │
-│                              │                │          │        │                      │                │ inefficient certificate chain validation...                 │
-│                              │                │          │        │                      │                │ https://avd.aquasec.com/nvd/cve-2026-32281                  │
-│                              ├────────────────┤          │        │                      │                ├─────────────────────────────────────────────────────────────┤
-│                              │ CVE-2026-32283 │          │        │                      │                │ If one side of the TLS connection sends multiple key update │
-│                              │                │          │        │                      │                │ messages...                                                 │
-│                              │                │          │        │                      │                │ https://avd.aquasec.com/nvd/cve-2026-32283                  │
-└──────────────────────────────┴────────────────┴──────────┴────────┴──────────────────────┴────────────────┴─────────────────────────────────────────────────────────────┘
+┌─────────────────────────────────────┬────────────────┬──────────┬────────┬──────────────────────┬─────────────────────────────┬────────────────────────────────────────────────────────────┐
+│               Library               │ Vulnerability  │ Severity │ Status │  Installed Version   │        Fixed Version        │                           Title                            │
+├─────────────────────────────────────┼────────────────┼──────────┼────────┼──────────────────────┼─────────────────────────────┼────────────────────────────────────────────────────────────┤
+│ github.com/containerd/containerd/v2 │ CVE-2026-46680 │ HIGH     │ fixed  │ v2.2.3               │ 2.0.9, 2.2.4, 2.3.1         │ containerd user ID handling bypass allows runAsNonRoot     │
+│                                     │                │          │        │                      │                             │ evasion                                                    │
+│                                     │                │          │        │                      │                             │ https://avd.aquasec.com/nvd/cve-2026-46680                 │
+│                                     ├────────────────┤          │        │                      ├─────────────────────────────┼────────────────────────────────────────────────────────────┤
+│                                     │ CVE-2026-53488 │          │        │                      │ 2.0.10, 2.1.9, 2.2.5, 2.3.2 │ CVE-2026-53488 affecting package containerd2 for versions  │
+│                                     │                │          │        │                      │                             │ less than 2.2.4-3                                          │
+│                                     │                │          │        │                      │                             │ https://avd.aquasec.com/nvd/cve-2026-53488                 │
+│                                     ├────────────────┤          │        │                      ├─────────────────────────────┼────────────────────────────────────────────────────────────┤
+│                                     │ CVE-2026-53489 │          │        │                      │ 2.1.9, 2.2.5, 2.3.2         │ CVE-2026-53489 affecting package containerd2 for versions  │
+│                                     │                │          │        │                      │                             │ less than 2.2.4-3                                          │
+│                                     │                │          │        │                      │                             │ https://avd.aquasec.com/nvd/cve-2026-53489                 │
+│                                     ├────────────────┤          │        │                      │                             ├────────────────────────────────────────────────────────────┤
+│                                     │ CVE-2026-53492 │          │        │                      │                             │ CVE-2026-53492 affecting package containerd2 for versions  │
+│                                     │                │          │        │                      │                             │ less than 2.2.4-3                                          │
+│                                     │                │          │        │                      │                             │ https://avd.aquasec.com/nvd/cve-2026-53492                 │
+├─────────────────────────────────────┼────────────────┤          │        ├──────────────────────┼─────────────────────────────┼────────────────────────────────────────────────────────────┤
+│ github.com/docker/docker            │ CVE-2026-34040 │          │        │ v28.5.2+incompatible │ 29.3.1                      │ Moby: Moby: Authorization bypass vulnerability             │
+│                                     │                │          │        │                      │                             │ https://avd.aquasec.com/nvd/cve-2026-34040                 │
+├─────────────────────────────────────┼────────────────┤          │        ├──────────────────────┼─────────────────────────────┼────────────────────────────────────────────────────────────┤
+│ stdlib                              │ CVE-2026-42504 │          │        │ v1.26.3              │ 1.25.11, 1.26.4             │ Decoding a maliciously-crafted MIME header containing many │
+│                                     │                │          │        │                      │                             │ invalid enc ...                                            │
+│                                     │                │          │        │                      │                             │ https://avd.aquasec.com/nvd/cve-2026-42504                 │
+└─────────────────────────────────────┴────────────────┴──────────┴────────┴──────────────────────┴─────────────────────────────┴────────────────────────────────────────────────────────────┘
 
 usr/libexec/docker/cli-plugins/docker-compose (gobinary)
 ========================================================
-Total: 5 (HIGH: 5, CRITICAL: 0)
+Total: 6 (HIGH: 6, CRITICAL: 0)
 
-┌──────────────────────────────┬────────────────┬──────────┬────────┬──────────────────────┬────────────────┬─────────────────────────────────────────────────────────────┐
-│           Library            │ Vulnerability  │ Severity │ Status │  Installed Version   │ Fixed Version  │                            Title                            │
-├──────────────────────────────┼────────────────┼──────────┼────────┼──────────────────────┼────────────────┼─────────────────────────────────────────────────────────────┤
-│ github.com/docker/docker     │ CVE-2026-34040 │ HIGH     │ fixed  │ v28.5.2+incompatible │ 29.3.1         │ Moby: Moby: Authorization bypass vulnerability              │
-│                              │                │          │        │                      │                │ https://avd.aquasec.com/nvd/cve-2026-34040                  │
-├──────────────────────────────┼────────────────┤          │        ├──────────────────────┼────────────────┼─────────────────────────────────────────────────────────────┤
-│ go.opentelemetry.io/otel/sdk │ CVE-2026-39883 │          │        │ v1.42.0              │ 1.43.0         │ opentelemetry-go: BSD kenv command not using absolute path  │
-│                              │                │          │        │                      │                │ enables PATH hijacking                                      │
-│                              │                │          │        │                      │                │ https://avd.aquasec.com/nvd/cve-2026-39883                  │
-├──────────────────────────────┼────────────────┤          │        ├──────────────────────┼────────────────┼─────────────────────────────────────────────────────────────┤
-│ stdlib                       │ CVE-2026-32280 │          │        │ v1.25.8              │ 1.25.9, 1.26.2 │ crypto/x509: crypto/tls: golang: Go: Denial of Service      │
-│                              │                │          │        │                      │                │ vulnerability in certificate chain building...              │
-│                              │                │          │        │                      │                │ https://avd.aquasec.com/nvd/cve-2026-32280                  │
-│                              ├────────────────┤          │        │                      │                ├─────────────────────────────────────────────────────────────┤
-│                              │ CVE-2026-32281 │          │        │                      │                │ crypto/x509: golang: Go crypto/x509: Denial of Service via  │
-│                              │                │          │        │                      │                │ inefficient certificate chain validation...                 │
-│                              │                │          │        │                      │                │ https://avd.aquasec.com/nvd/cve-2026-32281                  │
-│                              ├────────────────┤          │        │                      │                ├─────────────────────────────────────────────────────────────┤
-│                              │ CVE-2026-32283 │          │        │                      │                │ If one side of the TLS connection sends multiple key update │
-│                              │                │          │        │                      │                │ messages...                                                 │
-│                              │                │          │        │                      │                │ https://avd.aquasec.com/nvd/cve-2026-32283                  │
-└──────────────────────────────┴────────────────┴──────────┴────────┴──────────────────────┴────────────────┴─────────────────────────────────────────────────────────────┘
+┌─────────────────────────────────────┬────────────────┬──────────┬────────┬──────────────────────┬─────────────────────────────┬────────────────────────────────────────────────────────────┐
+│               Library               │ Vulnerability  │ Severity │ Status │  Installed Version   │        Fixed Version        │                           Title                            │
+├─────────────────────────────────────┼────────────────┼──────────┼────────┼──────────────────────┼─────────────────────────────┼────────────────────────────────────────────────────────────┤
+│ github.com/containerd/containerd/v2 │ CVE-2026-46680 │ HIGH     │ fixed  │ v2.2.3               │ 2.0.9, 2.2.4, 2.3.1         │ containerd user ID handling bypass allows runAsNonRoot     │
+│                                     │                │          │        │                      │                             │ evasion                                                    │
+│                                     │                │          │        │                      │                             │ https://avd.aquasec.com/nvd/cve-2026-46680                 │
+│                                     ├────────────────┤          │        │                      ├─────────────────────────────┼────────────────────────────────────────────────────────────┤
+│                                     │ CVE-2026-53488 │          │        │                      │ 2.0.10, 2.1.9, 2.2.5, 2.3.2 │ CVE-2026-53488 affecting package containerd2 for versions  │
+│                                     │                │          │        │                      │                             │ less than 2.2.4-3                                          │
+│                                     │                │          │        │                      │                             │ https://avd.aquasec.com/nvd/cve-2026-53488                 │
+│                                     ├────────────────┤          │        │                      ├─────────────────────────────┼────────────────────────────────────────────────────────────┤
+│                                     │ CVE-2026-53489 │          │        │                      │ 2.1.9, 2.2.5, 2.3.2         │ CVE-2026-53489 affecting package containerd2 for versions  │
+│                                     │                │          │        │                      │                             │ less than 2.2.4-3                                          │
+│                                     │                │          │        │                      │                             │ https://avd.aquasec.com/nvd/cve-2026-53489                 │
+│                                     ├────────────────┤          │        │                      │                             ├────────────────────────────────────────────────────────────┤
+│                                     │ CVE-2026-53492 │          │        │                      │                             │ CVE-2026-53492 affecting package containerd2 for versions  │
+│                                     │                │          │        │                      │                             │ less than 2.2.4-3                                          │
+│                                     │                │          │        │                      │                             │ https://avd.aquasec.com/nvd/cve-2026-53492                 │
+├─────────────────────────────────────┼────────────────┤          │        ├──────────────────────┼─────────────────────────────┼────────────────────────────────────────────────────────────┤
+│ github.com/docker/docker            │ CVE-2026-34040 │          │        │ v28.5.2+incompatible │ 29.3.1                      │ Moby: Moby: Authorization bypass vulnerability             │
+│                                     │                │          │        │                      │                             │ https://avd.aquasec.com/nvd/cve-2026-34040                 │
+├─────────────────────────────────────┼────────────────┤          │        ├──────────────────────┼─────────────────────────────┼────────────────────────────────────────────────────────────┤
+│ stdlib                              │ CVE-2026-42504 │          │        │ v1.26.3              │ 1.25.11, 1.26.4             │ Decoding a maliciously-crafted MIME header containing many │
+│                                     │                │          │        │                      │                             │ invalid enc ...                                            │
+│                                     │                │          │        │                      │                             │ https://avd.aquasec.com/nvd/cve-2026-42504                 │
+└─────────────────────────────────────┴────────────────┴──────────┴────────┴──────────────────────┴─────────────────────────────┴────────────────────────────────────────────────────────────┘
 
 /etc/ssh/ssh_host_ecdsa_key (secrets)
 =====================================
