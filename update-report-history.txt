@@ -17,3 +17,4 @@ lun 22 giu 2026, 18:03:29, CEST --- ghcr.io/neomediatech/self-hosted-runner:late
 lun 27 lug 2026, 10:28:30, CEST --- ghcr.io/neomediatech/self-hosted-runner:latest done (image build needed: true)
 lun 31 ago 2026, 13:24:22, CEST --- ghcr.io/neomediatech/self-hosted-runner:latest done (image build needed: true)
 lun 12 ott 2026, 15:45:41, CEST --- ghcr.io/neomediatech/self-hosted-runner:latest done (image build needed: true)
+mer 21 ott 2026, 21:59:21, CEST --- ghcr.io/neomediatech/self-hosted-runner:latest done (image build needed: true)
