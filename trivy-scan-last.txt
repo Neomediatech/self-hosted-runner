@@ -1,4 +1,4 @@
-lun 26 ott 2026, 17:33:35, CET --- ghcr.io/neomediatech/self-hosted-runner:latest
+mar 24 nov 2026, 20:48:10, CET --- ghcr.io/neomediatech/self-hosted-runner:latest
 
 Report Summary
 
@@ -717,7 +717,7 @@ Report Summary
 │ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/b- │  node-pkg   │        0        │    -    │         -         │
 │ inary-extensions/package.json                                                    │             │                 │         │                   │
 ├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
-│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/b- │  node-pkg   │        4        │    -    │         -         │
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/b- │  node-pkg   │        2        │    -    │         -         │
 │ race-expansion/package.json                                                      │             │                 │         │                   │
 ├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
 │ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/c- │  node-pkg   │        0        │    -    │         -         │
@@ -792,7 +792,7 @@ Report Summary
 │ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/i- │  node-pkg   │        0        │    -    │         -         │
 │ nit-package-json/package.json                                                    │             │                 │         │                   │
 ├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
-│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/i- │  node-pkg   │        1        │    -    │         -         │
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/i- │  node-pkg   │        0        │    -    │         -         │
 │ p-address/package.json                                                           │             │                 │         │                   │
 ├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
 │ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/i- │  node-pkg   │        0        │    -    │         -         │
@@ -1002,7 +1002,7 @@ Report Summary
 │ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/s- │  node-pkg   │        0        │    -    │         -         │
 │ upports-color/package.json                                                       │             │                 │         │                   │
 ├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
-│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/t- │  node-pkg   │        1        │    -    │         -         │
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/t- │  node-pkg   │        0        │    -    │         -         │
 │ ar/package.json                                                                  │             │                 │         │                   │
 ├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
 │ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/t- │  node-pkg   │        0        │    -    │         -         │
@@ -1026,7 +1026,7 @@ Report Summary
 │ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/t- │  node-pkg   │        0        │    -    │         -         │
 │ uf-js/package.json                                                               │             │                 │         │                   │
 ├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
-│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/u- │  node-pkg   │        2        │    -    │         -         │
+│ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/u- │  node-pkg   │        4        │    -    │         -         │
 │ ndici/package.json                                                               │             │                 │         │                   │
 ├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
 │ home/docker/actions-runner/externals/node24/lib/node_modules/npm/node_modules/u- │  node-pkg   │        0        │    -    │         -         │
@@ -1049,23 +1049,23 @@ Report Summary
 ├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
 │ home/docker/actions-runner/externals/node24/lib/node_modules/npm/package.json    │  node-pkg   │        0        │    -    │         -         │
 ├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
-│ home/docker/actions-runner/bin/Runner.Common.deps.json                           │ dotnet-core │        1        │    -    │         -         │
+│ home/docker/actions-runner/bin/Runner.Common.deps.json                           │ dotnet-core │        0        │    -    │         -         │
 ├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
-│ home/docker/actions-runner/bin/Runner.Listener.deps.json                         │ dotnet-core │        6        │    -    │         -         │
+│ home/docker/actions-runner/bin/Runner.Listener.deps.json                         │ dotnet-core │        0        │    -    │         -         │
 ├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
-│ home/docker/actions-runner/bin/Runner.PluginHost.deps.json                       │ dotnet-core │        6        │    -    │         -         │
+│ home/docker/actions-runner/bin/Runner.PluginHost.deps.json                       │ dotnet-core │        0        │    -    │         -         │
 ├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
-│ home/docker/actions-runner/bin/Runner.Plugins.deps.json                          │ dotnet-core │        6        │    -    │         -         │
+│ home/docker/actions-runner/bin/Runner.Plugins.deps.json                          │ dotnet-core │        0        │    -    │         -         │
 ├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
-│ home/docker/actions-runner/bin/Runner.Sdk.deps.json                              │ dotnet-core │        6        │    -    │         -         │
+│ home/docker/actions-runner/bin/Runner.Sdk.deps.json                              │ dotnet-core │        0        │    -    │         -         │
 ├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
-│ home/docker/actions-runner/bin/Runner.Worker.deps.json                           │ dotnet-core │        6        │    -    │         -         │
+│ home/docker/actions-runner/bin/Runner.Worker.deps.json                           │ dotnet-core │        1        │    -    │         -         │
 ├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
-│ home/docker/actions-runner/bin/Sdk.deps.json                                     │ dotnet-core │        1        │    -    │         -         │
+│ home/docker/actions-runner/bin/Sdk.deps.json                                     │ dotnet-core │        0        │    -    │         -         │
 ├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
 │ usr/bin/docker                                                                   │  gobinary   │        0        │    -    │         -         │
 ├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
-│ usr/libexec/docker/cli-plugins/docker-buildx                                     │  gobinary   │        2        │    -    │         -         │
+│ usr/libexec/docker/cli-plugins/docker-buildx                                     │  gobinary   │        1        │    -    │         -         │
 ├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
 │ usr/libexec/docker/cli-plugins/docker-compose                                    │  gobinary   │        1        │    -    │         -         │
 ├──────────────────────────────────────────────────────────────────────────────────┼─────────────┼─────────────────┼─────────┼───────────────────┤
@@ -1091,7 +1091,7 @@ To disable this notice, set the TRIVY_DISABLE_VEX_NOTICE environment variable.
 
 Node.js (node-pkg)
 ==================
-Total: 30 (HIGH: 29, CRITICAL: 1)
+Total: 28 (HIGH: 27, CRITICAL: 1)
 
 ┌────────────────────────────────┬─────────────────┬──────────┬────────┬───────────────────┬─────────────────────────────────────────────────────────┬──────────────────────────────────────────────────────────────┐
 │            Library             │  Vulnerability  │ Severity │ Status │ Installed Version │                      Fixed Version                      │                            Title                             │
@@ -1116,21 +1116,13 @@ Total: 30 (HIGH: 29, CRITICAL: 1)
 │                                │                 │          │        │                   │                                                         │ bypassing the CVE-2026-14257 mitigation                      │
 │                                │                 │          │        │                   │                                                         │ https://avd.aquasec.com/nvd/cve-2026-69152                   │
 │                                ├─────────────────┤          │        ├───────────────────┼─────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────────────┤
-│                                │ CVE-2026-102276 │          │        │ 5.0.7             │ 5.0.10, 3.0.7, 2.1.5, 1.1.19                            │ brace-expansion: brace-expansion: Denial of Service via      │
+│                                │ CVE-2026-102276 │          │        │ 5.0.9             │ 5.0.10, 3.0.7, 2.1.5, 1.1.19                            │ brace-expansion: brace-expansion: Denial of Service via      │
 │                                │                 │          │        │                   │                                                         │ stack exhaustion from crafted brace patterns...              │
 │                                │                 │          │        │                   │                                                         │ https://avd.aquasec.com/nvd/cve-2026-102276                  │
 │                                ├─────────────────┤          │        │                   ├─────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────────────┤
 │                                │ CVE-2026-102278 │          │        │                   │ 5.0.11, 3.0.8, 2.1.6, 1.1.20                            │ brace-expansion: brace-expansion: Denial of Service via      │
 │                                │                 │          │        │                   │                                                         │ uncontrolled recursion in nested brace patterns...           │
 │                                │                 │          │        │                   │                                                         │ https://avd.aquasec.com/nvd/cve-2026-102278                  │
-│                                ├─────────────────┤          │        │                   ├─────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────────────┤
-│                                │ CVE-2026-14257  │          │        │                   │ 5.0.8, 3.0.3, 2.1.3, 1.1.17                             │ brace-expansion: Brace-expansion: Denial of Service via      │
-│                                │                 │          │        │                   │                                                         │ memory exhaustion in expand() function                       │
-│                                │                 │          │        │                   │                                                         │ https://avd.aquasec.com/nvd/cve-2026-14257                   │
-│                                ├─────────────────┤          │        │                   ├─────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────────────┤
-│                                │ CVE-2026-69152  │          │        │                   │ 1.1.18, 2.1.4, 3.0.6, 5.0.9                             │ brace-expansion: DoS via unbounded intermediate arrays,      │
-│                                │                 │          │        │                   │                                                         │ bypassing the CVE-2026-14257 mitigation                      │
-│                                │                 │          │        │                   │                                                         │ https://avd.aquasec.com/nvd/cve-2026-69152                   │
 ├────────────────────────────────┼─────────────────┤          │        ├───────────────────┼─────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────────────┤
 │ cross-spawn (package.json)     │ CVE-2024-21538  │          │        │ 7.0.3             │ 7.0.5, 6.0.6                                            │ cross-spawn: regular expression denial of service            │
 │                                │                 │          │        │                   │                                                         │ https://avd.aquasec.com/nvd/cve-2024-21538                   │
@@ -1139,13 +1131,9 @@ Total: 30 (HIGH: 29, CRITICAL: 1)
 │                                │                 │          │        │                   │                                                         │ Filenames                                                    │
 │                                │                 │          │        │                   │                                                         │ https://avd.aquasec.com/nvd/cve-2025-64756                   │
 ├────────────────────────────────┼─────────────────┤          │        ├───────────────────┼─────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────────────┤
-│ ip-address (package.json)      │ CVE-2026-69192  │          │        │ 10.2.0            │ 10.3.1                                                  │ ip-address: ip-address: Inconsistent IP address parsing      │
+│ ip-address (package.json)      │ CVE-2026-69192  │          │        │ 9.0.5             │ 10.3.1                                                  │ ip-address: ip-address: Inconsistent IP address parsing      │
 │                                │                 │          │        │                   │                                                         │ leads to Server-Side Request Forgery (SSRF)...               │
 │                                │                 │          │        │                   │                                                         │ https://avd.aquasec.com/nvd/cve-2026-69192                   │
-│                                │                 │          │        ├───────────────────┤                                                         │                                                              │
-│                                │                 │          │        │ 9.0.5             │                                                         │                                                              │
-│                                │                 │          │        │                   │                                                         │                                                              │
-│                                │                 │          │        │                   │                                                         │                                                              │
 ├────────────────────────────────┼─────────────────┤          │        │                   ├─────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────────────┤
 │ minimatch (package.json)       │ CVE-2026-26996  │          │        │                   │ 10.2.1, 9.0.6, 8.0.5, 7.4.7, 6.2.1, 5.1.7, 4.2.4, 3.1.3 │ minimatch: minimatch: Denial of Service via specially        │
 │                                │                 │          │        │                   │                                                         │ crafted glob patterns                                        │
@@ -1201,200 +1189,39 @@ Total: 30 (HIGH: 29, CRITICAL: 1)
 │                                │ CVE-2026-73566  │          │        │                   │ 7.5.21                                                  │ tar: node-tar: Denial of Service via crafted long-path tar   │
 │                                │                 │          │        │                   │                                                         │ archive                                                      │
 │                                │                 │          │        │                   │                                                         │ https://avd.aquasec.com/nvd/cve-2026-73566                   │
-│                                │                 │          │        ├───────────────────┤                                                         │                                                              │
-│                                │                 │          │        │ 7.5.19            │                                                         │                                                              │
-│                                │                 │          │        │                   │                                                         │                                                              │
-│                                │                 │          │        │                   │                                                         │                                                              │
 ├────────────────────────────────┼─────────────────┤          │        ├───────────────────┼─────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────────────┤
-│ undici (package.json)          │ CVE-2026-109869 │          │        │ 6.27.0            │ 6.29.1, 7.30.1, 8.12.2                                  │ undici: undici: Denial of Service via unhandled stream error │
+│ undici (package.json)          │ CVE-2026-109383 │          │        │ 6.28.0            │ 6.29.1, 7.30.1, 8.12.2                                  │ undici: undici: Certificate validation bypass via dropped    │
+│                                │                 │          │        │                   │                                                         │ TLS options in Agent                                         │
+│                                │                 │          │        │                   │                                                         │ https://avd.aquasec.com/nvd/cve-2026-109383                  │
+│                                ├─────────────────┤          │        │                   │                                                         ├──────────────────────────────────────────────────────────────┤
+│                                │ CVE-2026-109869 │          │        │                   │                                                         │ undici: undici: Denial of Service via unhandled stream error │
 │                                │                 │          │        │                   │                                                         │ on excessive content...                                      │
 │                                │                 │          │        │                   │                                                         │ https://avd.aquasec.com/nvd/cve-2026-109869                  │
 │                                ├─────────────────┤          │        │                   ├─────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────────────┤
 │                                │ CVE-2026-19534  │          │        │                   │ 6.28.1, 7.29.1, 8.10.2                                  │ undici: undici: Denial of Service via unrequested WebSocket  │
 │                                │                 │          │        │                   │                                                         │ subprotocol                                                  │
 │                                │                 │          │        │                   │                                                         │ https://avd.aquasec.com/nvd/cve-2026-19534                   │
+│                                ├─────────────────┤          │        │                   ├─────────────────────────────────────────────────────────┼──────────────────────────────────────────────────────────────┤
+│                                │ CVE-2026-87018  │          │        │                   │ 6.29.1, 7.30.1, 8.12.2                                  │ undici: undici: Denial of Service via TLS renegotiation with │
+│                                │                 │          │        │                   │                                                         │ mismatched certificate                                       │
+│                                │                 │          │        │                   │                                                         │ https://avd.aquasec.com/nvd/cve-2026-87018                   │
 └────────────────────────────────┴─────────────────┴──────────┴────────┴───────────────────┴─────────────────────────────────────────────────────────┴──────────────────────────────────────────────────────────────┘
-
-home/docker/actions-runner/bin/Runner.Common.deps.json (dotnet-core)
-====================================================================
-Total: 1 (HIGH: 1, CRITICAL: 0)
-
-┌───────────────────────────────────┬────────────────┬──────────┬────────┬───────────────────┬─────────────────────────────────────┬──────────────────────────────────────────────┐
-│              Library              │ Vulnerability  │ Severity │ Status │ Installed Version │            Fixed Version            │                    Title                     │
-├───────────────────────────────────┼────────────────┼──────────┼────────┼───────────────────┼─────────────────────────────────────┼──────────────────────────────────────────────┤
-│ System.Security.Cryptography.Pkcs │ CVE-2026-84008 │ HIGH     │ fixed  │ 10.0.12           │ 10.0.13, 11.0.0-rc.2, 8.0.2, 9.0.21 │ dotnet: .NET Denial of Service Vulnerability │
-│                                   │                │          │        │                   │                                     │ https://avd.aquasec.com/nvd/cve-2026-84008   │
-└───────────────────────────────────┴────────────────┴──────────┴────────┴───────────────────┴─────────────────────────────────────┴──────────────────────────────────────────────┘
-
-home/docker/actions-runner/bin/Runner.Listener.deps.json (dotnet-core)
-======================================================================
-Total: 6 (HIGH: 6, CRITICAL: 0)
-
-┌─────────────────────────────────────────┬────────────────┬──────────┬────────┬───────────────────┬──────────────────────────────────────┬─────────────────────────────────────────────────────────────┐
-│                 Library                 │ Vulnerability  │ Severity │ Status │ Installed Version │            Fixed Version             │                            Title                            │
-├─────────────────────────────────────────┼────────────────┼──────────┼────────┼───────────────────┼──────────────────────────────────────┼─────────────────────────────────────────────────────────────┤
-│ Microsoft.NETCore.App.Runtime.linux-x64 │ CVE-2026-58280 │ HIGH     │ fixed  │ 8.0.31            │ 9.0.21, 8.0.32, 10.0.13, 11.0.0-rc.2 │ dotnet10.0: dotnet9.0: dotnet: dotnet8.0: .NET Denial of    │
-│                                         │                │          │        │                   │                                      │ Service Vulnerability                                       │
-│                                         │                │          │        │                   │                                      │ https://avd.aquasec.com/nvd/cve-2026-58280                  │
-│                                         ├────────────────┤          │        │                   ├──────────────────────────────────────┼─────────────────────────────────────────────────────────────┤
-│                                         │ CVE-2026-69651 │          │        │                   │ 9.0.21, 11.0.0-rc.2, 10.0.13, 8.0.32 │ dotnet9.0: dotnet: dotnet10.0: dotnet8.0: .NET Denial of    │
-│                                         │                │          │        │                   │                                      │ Service Vulnerability                                       │
-│                                         │                │          │        │                   │                                      │ https://avd.aquasec.com/nvd/cve-2026-69651                  │
-│                                         ├────────────────┤          │        │                   ├──────────────────────────────────────┼─────────────────────────────────────────────────────────────┤
-│                                         │ CVE-2026-96225 │          │        │                   │ 8.0.32, 10.0.13, 11.0.0-rc.2, 9.0.21 │ dotnet: dotnet8.0: dotnet9.0: dotnet10.0: .NET Elevation of │
-│                                         │                │          │        │                   │                                      │ Privilege Vulnerability                                     │
-│                                         │                │          │        │                   │                                      │ https://avd.aquasec.com/nvd/cve-2026-96225                  │
-│                                         ├────────────────┤          │        │                   ├──────────────────────────────────────┼─────────────────────────────────────────────────────────────┤
-│                                         │ CVE-2026-96231 │          │        │                   │ 8.0.32, 10.0.13, 9.0.21, 11.0.0-rc.2 │ dotnet: dotnet9.0: dotnet10.0: dotnet8.0: .NET Elevation of │
-│                                         │                │          │        │                   │                                      │ Privilege Vulnerability                                     │
-│                                         │                │          │        │                   │                                      │ https://avd.aquasec.com/nvd/cve-2026-96231                  │
-│                                         ├────────────────┤          │        │                   ├──────────────────────────────────────┼─────────────────────────────────────────────────────────────┤
-│                                         │ CVE-2026-96233 │          │        │                   │ 10.0.13, 11.0.0-rc.2, 9.0.21, 8.0.32 │ dotnet10.0: dotnet: dotnet8.0: dotnet9.0: ASP.NET Core      │
-│                                         │                │          │        │                   │                                      │ Denial of Service Vulnerability                             │
-│                                         │                │          │        │                   │                                      │ https://avd.aquasec.com/nvd/cve-2026-96233                  │
-├─────────────────────────────────────────┼────────────────┤          │        ├───────────────────┼──────────────────────────────────────┼─────────────────────────────────────────────────────────────┤
-│ System.Security.Cryptography.Pkcs       │ CVE-2026-84008 │          │        │ 10.0.12           │ 10.0.13, 11.0.0-rc.2, 8.0.2, 9.0.21  │ dotnet: .NET Denial of Service Vulnerability                │
-│                                         │                │          │        │                   │                                      │ https://avd.aquasec.com/nvd/cve-2026-84008                  │
-└─────────────────────────────────────────┴────────────────┴──────────┴────────┴───────────────────┴──────────────────────────────────────┴─────────────────────────────────────────────────────────────┘
-
-home/docker/actions-runner/bin/Runner.PluginHost.deps.json (dotnet-core)
-========================================================================
-Total: 6 (HIGH: 6, CRITICAL: 0)
-
-┌─────────────────────────────────────────┬────────────────┬──────────┬────────┬───────────────────┬──────────────────────────────────────┬─────────────────────────────────────────────────────────────┐
-│                 Library                 │ Vulnerability  │ Severity │ Status │ Installed Version │            Fixed Version             │                            Title                            │
-├─────────────────────────────────────────┼────────────────┼──────────┼────────┼───────────────────┼──────────────────────────────────────┼─────────────────────────────────────────────────────────────┤
-│ Microsoft.NETCore.App.Runtime.linux-x64 │ CVE-2026-58280 │ HIGH     │ fixed  │ 8.0.31            │ 9.0.21, 8.0.32, 10.0.13, 11.0.0-rc.2 │ dotnet10.0: dotnet9.0: dotnet: dotnet8.0: .NET Denial of    │
-│                                         │                │          │        │                   │                                      │ Service Vulnerability                                       │
-│                                         │                │          │        │                   │                                      │ https://avd.aquasec.com/nvd/cve-2026-58280                  │
-│                                         ├────────────────┤          │        │                   ├──────────────────────────────────────┼─────────────────────────────────────────────────────────────┤
-│                                         │ CVE-2026-69651 │          │        │                   │ 9.0.21, 11.0.0-rc.2, 10.0.13, 8.0.32 │ dotnet9.0: dotnet: dotnet10.0: dotnet8.0: .NET Denial of    │
-│                                         │                │          │        │                   │                                      │ Service Vulnerability                                       │
-│                                         │                │          │        │                   │                                      │ https://avd.aquasec.com/nvd/cve-2026-69651                  │
-│                                         ├────────────────┤          │        │                   ├──────────────────────────────────────┼─────────────────────────────────────────────────────────────┤
-│                                         │ CVE-2026-96225 │          │        │                   │ 8.0.32, 10.0.13, 11.0.0-rc.2, 9.0.21 │ dotnet: dotnet8.0: dotnet9.0: dotnet10.0: .NET Elevation of │
-│                                         │                │          │        │                   │                                      │ Privilege Vulnerability                                     │
-│                                         │                │          │        │                   │                                      │ https://avd.aquasec.com/nvd/cve-2026-96225                  │
-│                                         ├────────────────┤          │        │                   ├──────────────────────────────────────┼─────────────────────────────────────────────────────────────┤
-│                                         │ CVE-2026-96231 │          │        │                   │ 8.0.32, 10.0.13, 9.0.21, 11.0.0-rc.2 │ dotnet: dotnet9.0: dotnet10.0: dotnet8.0: .NET Elevation of │
-│                                         │                │          │        │                   │                                      │ Privilege Vulnerability                                     │
-│                                         │                │          │        │                   │                                      │ https://avd.aquasec.com/nvd/cve-2026-96231                  │
-│                                         ├────────────────┤          │        │                   ├──────────────────────────────────────┼─────────────────────────────────────────────────────────────┤
-│                                         │ CVE-2026-96233 │          │        │                   │ 10.0.13, 11.0.0-rc.2, 9.0.21, 8.0.32 │ dotnet10.0: dotnet: dotnet8.0: dotnet9.0: ASP.NET Core      │
-│                                         │                │          │        │                   │                                      │ Denial of Service Vulnerability                             │
-│                                         │                │          │        │                   │                                      │ https://avd.aquasec.com/nvd/cve-2026-96233                  │
-├─────────────────────────────────────────┼────────────────┤          │        ├───────────────────┼──────────────────────────────────────┼─────────────────────────────────────────────────────────────┤
-│ System.Security.Cryptography.Pkcs       │ CVE-2026-84008 │          │        │ 10.0.12           │ 10.0.13, 11.0.0-rc.2, 8.0.2, 9.0.21  │ dotnet: .NET Denial of Service Vulnerability                │
-│                                         │                │          │        │                   │                                      │ https://avd.aquasec.com/nvd/cve-2026-84008                  │
-└─────────────────────────────────────────┴────────────────┴──────────┴────────┴───────────────────┴──────────────────────────────────────┴─────────────────────────────────────────────────────────────┘
-
-home/docker/actions-runner/bin/Runner.Plugins.deps.json (dotnet-core)
-=====================================================================
-Total: 6 (HIGH: 6, CRITICAL: 0)
-
-┌─────────────────────────────────────────┬────────────────┬──────────┬────────┬───────────────────┬──────────────────────────────────────┬─────────────────────────────────────────────────────────────┐
-│                 Library                 │ Vulnerability  │ Severity │ Status │ Installed Version │            Fixed Version             │                            Title                            │
-├─────────────────────────────────────────┼────────────────┼──────────┼────────┼───────────────────┼──────────────────────────────────────┼─────────────────────────────────────────────────────────────┤
-│ Microsoft.NETCore.App.Runtime.linux-x64 │ CVE-2026-58280 │ HIGH     │ fixed  │ 8.0.31            │ 9.0.21, 8.0.32, 10.0.13, 11.0.0-rc.2 │ dotnet10.0: dotnet9.0: dotnet: dotnet8.0: .NET Denial of    │
-│                                         │                │          │        │                   │                                      │ Service Vulnerability                                       │
-│                                         │                │          │        │                   │                                      │ https://avd.aquasec.com/nvd/cve-2026-58280                  │
-│                                         ├────────────────┤          │        │                   ├──────────────────────────────────────┼─────────────────────────────────────────────────────────────┤
-│                                         │ CVE-2026-69651 │          │        │                   │ 9.0.21, 11.0.0-rc.2, 10.0.13, 8.0.32 │ dotnet9.0: dotnet: dotnet10.0: dotnet8.0: .NET Denial of    │
-│                                         │                │          │        │                   │                                      │ Service Vulnerability                                       │
-│                                         │                │          │        │                   │                                      │ https://avd.aquasec.com/nvd/cve-2026-69651                  │
-│                                         ├────────────────┤          │        │                   ├──────────────────────────────────────┼─────────────────────────────────────────────────────────────┤
-│                                         │ CVE-2026-96225 │          │        │                   │ 8.0.32, 10.0.13, 11.0.0-rc.2, 9.0.21 │ dotnet: dotnet8.0: dotnet9.0: dotnet10.0: .NET Elevation of │
-│                                         │                │          │        │                   │                                      │ Privilege Vulnerability                                     │
-│                                         │                │          │        │                   │                                      │ https://avd.aquasec.com/nvd/cve-2026-96225                  │
-│                                         ├────────────────┤          │        │                   ├──────────────────────────────────────┼─────────────────────────────────────────────────────────────┤
-│                                         │ CVE-2026-96231 │          │        │                   │ 8.0.32, 10.0.13, 9.0.21, 11.0.0-rc.2 │ dotnet: dotnet9.0: dotnet10.0: dotnet8.0: .NET Elevation of │
-│                                         │                │          │        │                   │                                      │ Privilege Vulnerability                                     │
-│                                         │                │          │        │                   │                                      │ https://avd.aquasec.com/nvd/cve-2026-96231                  │
-│                                         ├────────────────┤          │        │                   ├──────────────────────────────────────┼─────────────────────────────────────────────────────────────┤
-│                                         │ CVE-2026-96233 │          │        │                   │ 10.0.13, 11.0.0-rc.2, 9.0.21, 8.0.32 │ dotnet10.0: dotnet: dotnet8.0: dotnet9.0: ASP.NET Core      │
-│                                         │                │          │        │                   │                                      │ Denial of Service Vulnerability                             │
-│                                         │                │          │        │                   │                                      │ https://avd.aquasec.com/nvd/cve-2026-96233                  │
-├─────────────────────────────────────────┼────────────────┤          │        ├───────────────────┼──────────────────────────────────────┼─────────────────────────────────────────────────────────────┤
-│ System.Security.Cryptography.Pkcs       │ CVE-2026-84008 │          │        │ 10.0.12           │ 10.0.13, 11.0.0-rc.2, 8.0.2, 9.0.21  │ dotnet: .NET Denial of Service Vulnerability                │
-│                                         │                │          │        │                   │                                      │ https://avd.aquasec.com/nvd/cve-2026-84008                  │
-└─────────────────────────────────────────┴────────────────┴──────────┴────────┴───────────────────┴──────────────────────────────────────┴─────────────────────────────────────────────────────────────┘
-
-home/docker/actions-runner/bin/Runner.Sdk.deps.json (dotnet-core)
-=================================================================
-Total: 6 (HIGH: 6, CRITICAL: 0)
-
-┌─────────────────────────────────────────┬────────────────┬──────────┬────────┬───────────────────┬──────────────────────────────────────┬─────────────────────────────────────────────────────────────┐
-│                 Library                 │ Vulnerability  │ Severity │ Status │ Installed Version │            Fixed Version             │                            Title                            │
-├─────────────────────────────────────────┼────────────────┼──────────┼────────┼───────────────────┼──────────────────────────────────────┼─────────────────────────────────────────────────────────────┤
-│ Microsoft.NETCore.App.Runtime.linux-x64 │ CVE-2026-58280 │ HIGH     │ fixed  │ 8.0.31            │ 9.0.21, 8.0.32, 10.0.13, 11.0.0-rc.2 │ dotnet10.0: dotnet9.0: dotnet: dotnet8.0: .NET Denial of    │
-│                                         │                │          │        │                   │                                      │ Service Vulnerability                                       │
-│                                         │                │          │        │                   │                                      │ https://avd.aquasec.com/nvd/cve-2026-58280                  │
-│                                         ├────────────────┤          │        │                   ├──────────────────────────────────────┼─────────────────────────────────────────────────────────────┤
-│                                         │ CVE-2026-69651 │          │        │                   │ 9.0.21, 11.0.0-rc.2, 10.0.13, 8.0.32 │ dotnet9.0: dotnet: dotnet10.0: dotnet8.0: .NET Denial of    │
-│                                         │                │          │        │                   │                                      │ Service Vulnerability                                       │
-│                                         │                │          │        │                   │                                      │ https://avd.aquasec.com/nvd/cve-2026-69651                  │
-│                                         ├────────────────┤          │        │                   ├──────────────────────────────────────┼─────────────────────────────────────────────────────────────┤
-│                                         │ CVE-2026-96225 │          │        │                   │ 8.0.32, 10.0.13, 11.0.0-rc.2, 9.0.21 │ dotnet: dotnet8.0: dotnet9.0: dotnet10.0: .NET Elevation of │
-│                                         │                │          │        │                   │                                      │ Privilege Vulnerability                                     │
-│                                         │                │          │        │                   │                                      │ https://avd.aquasec.com/nvd/cve-2026-96225                  │
-│                                         ├────────────────┤          │        │                   ├──────────────────────────────────────┼─────────────────────────────────────────────────────────────┤
-│                                         │ CVE-2026-96231 │          │        │                   │ 8.0.32, 10.0.13, 9.0.21, 11.0.0-rc.2 │ dotnet: dotnet9.0: dotnet10.0: dotnet8.0: .NET Elevation of │
-│                                         │                │          │        │                   │                                      │ Privilege Vulnerability                                     │
-│                                         │                │          │        │                   │                                      │ https://avd.aquasec.com/nvd/cve-2026-96231                  │
-│                                         ├────────────────┤          │        │                   ├──────────────────────────────────────┼─────────────────────────────────────────────────────────────┤
-│                                         │ CVE-2026-96233 │          │        │                   │ 10.0.13, 11.0.0-rc.2, 9.0.21, 8.0.32 │ dotnet10.0: dotnet: dotnet8.0: dotnet9.0: ASP.NET Core      │
-│                                         │                │          │        │                   │                                      │ Denial of Service Vulnerability                             │
-│                                         │                │          │        │                   │                                      │ https://avd.aquasec.com/nvd/cve-2026-96233                  │
-├─────────────────────────────────────────┼────────────────┤          │        ├───────────────────┼──────────────────────────────────────┼─────────────────────────────────────────────────────────────┤
-│ System.Security.Cryptography.Pkcs       │ CVE-2026-84008 │          │        │ 10.0.12           │ 10.0.13, 11.0.0-rc.2, 8.0.2, 9.0.21  │ dotnet: .NET Denial of Service Vulnerability                │
-│                                         │                │          │        │                   │                                      │ https://avd.aquasec.com/nvd/cve-2026-84008                  │
-└─────────────────────────────────────────┴────────────────┴──────────┴────────┴───────────────────┴──────────────────────────────────────┴─────────────────────────────────────────────────────────────┘
 
 home/docker/actions-runner/bin/Runner.Worker.deps.json (dotnet-core)
 ====================================================================
-Total: 6 (HIGH: 6, CRITICAL: 0)
-
-┌─────────────────────────────────────────┬────────────────┬──────────┬────────┬───────────────────┬──────────────────────────────────────┬─────────────────────────────────────────────────────────────┐
-│                 Library                 │ Vulnerability  │ Severity │ Status │ Installed Version │            Fixed Version             │                            Title                            │
-├─────────────────────────────────────────┼────────────────┼──────────┼────────┼───────────────────┼──────────────────────────────────────┼─────────────────────────────────────────────────────────────┤
-│ Microsoft.NETCore.App.Runtime.linux-x64 │ CVE-2026-58280 │ HIGH     │ fixed  │ 8.0.31            │ 9.0.21, 8.0.32, 10.0.13, 11.0.0-rc.2 │ dotnet10.0: dotnet9.0: dotnet: dotnet8.0: .NET Denial of    │
-│                                         │                │          │        │                   │                                      │ Service Vulnerability                                       │
-│                                         │                │          │        │                   │                                      │ https://avd.aquasec.com/nvd/cve-2026-58280                  │
-│                                         ├────────────────┤          │        │                   ├──────────────────────────────────────┼─────────────────────────────────────────────────────────────┤
-│                                         │ CVE-2026-69651 │          │        │                   │ 9.0.21, 11.0.0-rc.2, 10.0.13, 8.0.32 │ dotnet9.0: dotnet: dotnet10.0: dotnet8.0: .NET Denial of    │
-│                                         │                │          │        │                   │                                      │ Service Vulnerability                                       │
-│                                         │                │          │        │                   │                                      │ https://avd.aquasec.com/nvd/cve-2026-69651                  │
-│                                         ├────────────────┤          │        │                   ├──────────────────────────────────────┼─────────────────────────────────────────────────────────────┤
-│                                         │ CVE-2026-96225 │          │        │                   │ 8.0.32, 10.0.13, 11.0.0-rc.2, 9.0.21 │ dotnet: dotnet8.0: dotnet9.0: dotnet10.0: .NET Elevation of │
-│                                         │                │          │        │                   │                                      │ Privilege Vulnerability                                     │
-│                                         │                │          │        │                   │                                      │ https://avd.aquasec.com/nvd/cve-2026-96225                  │
-│                                         ├────────────────┤          │        │                   ├──────────────────────────────────────┼─────────────────────────────────────────────────────────────┤
-│                                         │ CVE-2026-96231 │          │        │                   │ 8.0.32, 10.0.13, 9.0.21, 11.0.0-rc.2 │ dotnet: dotnet9.0: dotnet10.0: dotnet8.0: .NET Elevation of │
-│                                         │                │          │        │                   │                                      │ Privilege Vulnerability                                     │
-│                                         │                │          │        │                   │                                      │ https://avd.aquasec.com/nvd/cve-2026-96231                  │
-│                                         ├────────────────┤          │        │                   ├──────────────────────────────────────┼─────────────────────────────────────────────────────────────┤
-│                                         │ CVE-2026-96233 │          │        │                   │ 10.0.13, 11.0.0-rc.2, 9.0.21, 8.0.32 │ dotnet10.0: dotnet: dotnet8.0: dotnet9.0: ASP.NET Core      │
-│                                         │                │          │        │                   │                                      │ Denial of Service Vulnerability                             │
-│                                         │                │          │        │                   │                                      │ https://avd.aquasec.com/nvd/cve-2026-96233                  │
-├─────────────────────────────────────────┼────────────────┤          │        ├───────────────────┼──────────────────────────────────────┼─────────────────────────────────────────────────────────────┤
-│ System.Security.Cryptography.Pkcs       │ CVE-2026-84008 │          │        │ 10.0.12           │ 10.0.13, 11.0.0-rc.2, 8.0.2, 9.0.21  │ dotnet: .NET Denial of Service Vulnerability                │
-│                                         │                │          │        │                   │                                      │ https://avd.aquasec.com/nvd/cve-2026-84008                  │
-└─────────────────────────────────────────┴────────────────┴──────────┴────────┴───────────────────┴──────────────────────────────────────┴─────────────────────────────────────────────────────────────┘
-
-home/docker/actions-runner/bin/Sdk.deps.json (dotnet-core)
-==========================================================
 Total: 1 (HIGH: 1, CRITICAL: 0)
 
-┌───────────────────────────────────┬────────────────┬──────────┬────────┬───────────────────┬─────────────────────────────────────┬──────────────────────────────────────────────┐
-│              Library              │ Vulnerability  │ Severity │ Status │ Installed Version │            Fixed Version            │                    Title                     │
-├───────────────────────────────────┼────────────────┼──────────┼────────┼───────────────────┼─────────────────────────────────────┼──────────────────────────────────────────────┤
-│ System.Security.Cryptography.Pkcs │ CVE-2026-84008 │ HIGH     │ fixed  │ 10.0.12           │ 10.0.13, 11.0.0-rc.2, 8.0.2, 9.0.21 │ dotnet: .NET Denial of Service Vulnerability │
-│                                   │                │          │        │                   │                                     │ https://avd.aquasec.com/nvd/cve-2026-84008   │
-└───────────────────────────────────┴────────────────┴──────────┴────────┴───────────────────┴─────────────────────────────────────┴──────────────────────────────────────────────┘
+┌───────────────────────────────────┬─────────────────┬──────────┬────────┬───────────────────┬─────────────────────────────────┬────────────────────────────────────────────────────────────┐
+│              Library              │  Vulnerability  │ Severity │ Status │ Installed Version │          Fixed Version          │                           Title                            │
+├───────────────────────────────────┼─────────────────┼──────────┼────────┼───────────────────┼─────────────────────────────────┼────────────────────────────────────────────────────────────┤
+│ Microsoft.AspNetCore.WebUtilities │ CVE-2026-114149 │ HIGH     │ fixed  │ 8.0.25            │ 8.0.34, 9.0.23, 10.0.15, 11.0.0 │ dotnet11.0: dotnet8.0: dotnet9.0: dotnet10.0: ASP.NET Core │
+│                                   │                 │          │        │                   │                                 │ Denial of Service Vulnerability                            │
+│                                   │                 │          │        │                   │                                 │ https://avd.aquasec.com/nvd/cve-2026-114149                │
+└───────────────────────────────────┴─────────────────┴──────────┴────────┴───────────────────┴─────────────────────────────────┴────────────────────────────────────────────────────────────┘
 
 usr/libexec/docker/cli-plugins/docker-buildx (gobinary)
 =======================================================
-Total: 2 (HIGH: 2, CRITICAL: 0)
+Total: 1 (HIGH: 1, CRITICAL: 0)
 
 ┌────────────────────────────┬────────────────┬──────────┬────────┬───────────────────┬───────────────┬─────────────────────────────────────────────────────────────┐
 │          Library           │ Vulnerability  │ Severity │ Status │ Installed Version │ Fixed Version │                            Title                            │
@@ -1402,25 +1229,19 @@ Total: 2 (HIGH: 2, CRITICAL: 0)
 │ github.com/moby/go-archive │ CVE-2026-17106 │ HIGH     │ fixed  │ v0.2.0            │ 0.3.0         │ github.com/moby/go-archive: moby/go-archive: Arbitrary file │
 │                            │                │          │        │                   │               │ write via link following in tar extraction                  │
 │                            │                │          │        │                   │               │ https://avd.aquasec.com/nvd/cve-2026-17106                  │
-├────────────────────────────┼────────────────┤          │        ├───────────────────┼───────────────┼─────────────────────────────────────────────────────────────┤
-│ golang.org/x/net           │ CVE-2026-78669 │          │        │ v0.59.0           │ 0.60.0        │ net/http: net/http/internal/http2: golang.org/x/net/http2:  │
-│                            │                │          │        │                   │               │ net/http: Denial of Service via excessive HTTP/2 SETTINGS   │
-│                            │                │          │        │                   │               │ frames...                                                   │
-│                            │                │          │        │                   │               │ https://avd.aquasec.com/nvd/cve-2026-78669                  │
 └────────────────────────────┴────────────────┴──────────┴────────┴───────────────────┴───────────────┴─────────────────────────────────────────────────────────────┘
 
 usr/libexec/docker/cli-plugins/docker-compose (gobinary)
 ========================================================
 Total: 1 (HIGH: 1, CRITICAL: 0)
 
-┌──────────────────┬────────────────┬──────────┬────────┬───────────────────┬───────────────┬────────────────────────────────────────────────────────────┐
-│     Library      │ Vulnerability  │ Severity │ Status │ Installed Version │ Fixed Version │                           Title                            │
-├──────────────────┼────────────────┼──────────┼────────┼───────────────────┼───────────────┼────────────────────────────────────────────────────────────┤
-│ golang.org/x/net │ CVE-2026-78669 │ HIGH     │ fixed  │ v0.58.0           │ 0.60.0        │ net/http: net/http/internal/http2: golang.org/x/net/http2: │
-│                  │                │          │        │                   │               │ net/http: Denial of Service via excessive HTTP/2 SETTINGS  │
-│                  │                │          │        │                   │               │ frames...                                                  │
-│                  │                │          │        │                   │               │ https://avd.aquasec.com/nvd/cve-2026-78669                 │
-└──────────────────┴────────────────┴──────────┴────────┴───────────────────┴───────────────┴────────────────────────────────────────────────────────────┘
+┌──────────────────┬────────────────┬──────────┬────────┬───────────────────┬───────────────┬─────────────────────────────────────────────────────────┐
+│     Library      │ Vulnerability  │ Severity │ Status │ Installed Version │ Fixed Version │                          Title                          │
+├──────────────────┼────────────────┼──────────┼────────┼───────────────────┼───────────────┼─────────────────────────────────────────────────────────┤
+│ golang.org/x/net │ CVE-2026-78661 │ HIGH     │ fixed  │ v0.60.0           │ 0.62.0        │ golang.org/x/net/html: golang.org/x/net/html: Denial of │
+│                  │                │          │        │                   │               │ Service via crafted HTML input                          │
+│                  │                │          │        │                   │               │ https://avd.aquasec.com/nvd/cve-2026-78661              │
+└──────────────────┴────────────────┴──────────┴────────┴───────────────────┴───────────────┴─────────────────────────────────────────────────────────┘
 
 /etc/ssh/ssh_host_ecdsa_key (secrets)
 =====================================
